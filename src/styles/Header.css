@@ -1,0 +1,25 @@
+:root {
+    --header: rgb(187, 152, 148);
+  }
+  
+  .headerflex {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    border-width: 0.5px;
+  }
+  
+  .headerflex img {
+    width: 100%;
+  }
+  
+  .headerlogo {
+    width: 40%;
+    padding: 10px;
+  }
+  
+  .headerback {
+    font-size: 3em;
+  }
+  
