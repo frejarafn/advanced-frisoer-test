@@ -1,0 +1,85 @@
+/*Nadia*/
+
+/*profil*/
+.profil-main{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.profil-billede{
+    font-size: 60px;
+    border-style: solid;
+    border-radius: 80px;
+    padding: 2rem;
+    color: rgb(83, 83, 83);
+}
+
+/*main indhold*/
+.profil-tider{
+    padding-left: 2.5rem;
+}
+
+.profil-betaling{
+    padding-left: 2.5rem;
+}
+
+.tidsstekst{
+    
+}
+
+.betalingstekst{
+
+}
+
+.slet-ikon1{
+    background-color: #bb9894;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-left: 1rem;
+}
+
+.slet-ikon2{
+    background-color: #bb9894;
+    color: #ffffff;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-left: 6.9rem;
+}
+
+/*betalingskortknap*/
+.betalingskort-knap{
+    background-color: #bb9894;
+    color: #ffffff;
+    margin-left: 2.5rem;
+    border-radius: 25px;
+}
+
+/*indstillinger knap*/
+.indstillinger-knap{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #bb9894;
+}
+
+.indstillinger-knap a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*log ud knap*/
+.logud-knap{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #c6a23d;
+    border-radius: 25px;
+}
+
+.logud-knap a {
+    color: #ffffff;
+    text-decoration: none;
+}

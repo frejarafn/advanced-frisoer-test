@@ -1,0 +1,48 @@
+/*Nadia*/
+
+/*notifikation*/
+
+.notifikation-tekst{
+    margin-left: 3rem;
+}
+
+/*Form - start - overskrift*/
+.brugerindhold-overskrift{
+    margin-left: 3rem;
+}
+
+/*Formen*/
+.input-indhold {
+    width: 30vh;
+    height: 4vh;
+    border-radius: 10vh;
+    padding-left: 3vh;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #262626;
+    border-width: 1.2px;
+}
+
+
+.skiftindhold2 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*skift knap*/
+.skift-knap{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #c6a23d;
+    border-radius: 12px;
+    border-width: 1.2px;
+    border-color: #262626;
+    color: #ffffff;
+    padding: 0 2rem;
+}

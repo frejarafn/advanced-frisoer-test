@@ -1,5 +1,6 @@
 // Nadia
 
+import "../styles/OmSalonen.css";
 export default function OmSalonen() {
     return (
             <section>
