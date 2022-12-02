@@ -14,7 +14,6 @@ import Opret from "./page/Opret";
 import Profil from "./page/Profil";
 import Aabningstider from "./page/Aabningstider";
 
-
 import "./App.css";
 
 function App() {
@@ -36,15 +35,6 @@ function App() {
         <Route path="/Opret" element={<Opret />} />
         <Route path="/Profil" element={<Profil />} />
         <Route path="/Aabningstider" element={<Aabningstider />} />
-
-
-
-
-
-
-
-
-
       </Routes>
     </>
   );
