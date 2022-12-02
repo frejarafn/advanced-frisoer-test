@@ -8,6 +8,7 @@ export default function kontakt(){
         <>
         <section>
         <div>
+            
         <Overskrift overskrift="Kontakt salonen"/>
             
             </div>
