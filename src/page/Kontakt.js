@@ -1,24 +1,24 @@
 // Michelle
-import React from "react"; 
+import React from "react";
 
-export default function kontakt(){ 
+export default function Kontakt() {
 
-    return(
+    return (
         <>
-        <section>
-        <div>
-            
-            </div>
-            <div>
+            <section>
+                <div>
 
-            </div>
-            <div>
+                </div>
+                <div>
 
-            </div>
-            <div>
-                
-            </div>
-        </section>
+                </div>
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+            </section>
         </>
     )
 }; 
