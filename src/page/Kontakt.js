@@ -1,5 +1,6 @@
 // Michelle
 import React from "react"; 
+import Overskrift from '../components/Overskrift';
 
 export default function kontakt(){ 
 
@@ -7,6 +8,7 @@ export default function kontakt(){
         <>
         <section>
         <div>
+        <Overskrift overskrift="Kontakt salonen"/>
             
             </div>
             <div>
@@ -16,7 +18,7 @@ export default function kontakt(){
 
             </div>
             <div>
-                
+
             </div>
         </section>
         </>
