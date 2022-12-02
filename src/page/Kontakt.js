@@ -1,24 +1,18 @@
-// Michelle
-import React from "react";
+//Michelle 
 
-export default function Kontakt() {
+import React from "react"; 
+import Overskrift from '../components/Overskrift';
+export default function() {
 
-    return (
+    return(
         <>
-            <section>
-                <div>
+        <section>
+         <div>
+         <Overskrift overskrift="Kontakt salonen" />
 
-                </div>
-                <div>
+        </div>
 
-                </div>
-                <div>
-
-                </div>
-                <div>
-
-                </div>
-            </section>
+        </section>
         </>
     )
-}; 
+} 
