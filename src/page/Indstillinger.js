@@ -1,22 +1,28 @@
 // Nadia
 
 import "../styles/Indstillinger.css";
+import Header from "../components/Header";
 export default function Indstillinger() {
     return (
             <section>
+                <Header/>
                     <div>
-                        <h1>Brugerindhold</h1>
-                    </div>
+                        <h1 className="brugerindhold-overskrift">Brugerindhold</h1>
+                    </div> 
 
                     {/*Notifikation*/}
                     <div className="notifikationer">
                         <h4 className="notifikation-tekst">Notifikationer</h4>
+                        <div className="switch-notifikation">
+
+                        </div>
                     </div>
 
+                    <br></br>
 
                     {/*Form - start*/}
                     <div className="form">
-                        <h4 className="brugerindhold-overskrift">Skift brugerindhold</h4>
+                        <h4 className="form-overskrift">Skift brugerindhold</h4>
                     </div>
 
                     {/*Form bokse*/}
@@ -56,7 +62,7 @@ export default function Indstillinger() {
                     
                      {/*Skift knap*/}
                     <button className="skift-knap">
-                        <p className="skift-tekst">Skift</p>
+                        Skift
                     </button>
             </section>
 
