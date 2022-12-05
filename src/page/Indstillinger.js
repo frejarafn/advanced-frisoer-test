@@ -12,7 +12,7 @@ export default function Indstillinger() {
 
                     {/*Notifikation*/}
                     <div className="notifikationer">
-                        <h4 className="notifikation-tekst">Notifikationer</h4>
+                        <h3 className="notifikation-tekst">Notifikationer</h3>
                         <div className="switch-notifikation">
 
                         </div>
@@ -22,7 +22,7 @@ export default function Indstillinger() {
 
                     {/*Form - start*/}
                     <div className="form">
-                        <h4 className="form-overskrift">Skift brugerindhold</h4>
+                        <h3 className="form-overskrift">Skift brugerindhold</h3>
                     </div>
 
                     {/*Form bokse*/}
