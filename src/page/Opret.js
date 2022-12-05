@@ -1,5 +1,5 @@
 // Gerda
-
+import "../styles/Opret.css";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -18,11 +18,9 @@ export default function Opret() {
   };
   return (
     <div className="opret">
-      <main>
-        <h1>Opret</h1>
-      </main>
+      <h1>Opret din profil</h1>
+
       <div className="form-group">
-        <label>Brugernavn</label>
         <input
           type="text"
           className="form-control"
@@ -34,7 +32,6 @@ export default function Opret() {
       </div>
 
       <div className="form-group">
-        <label>Email</label>
         <input
           type="email"
           className="form-control"
@@ -46,7 +43,6 @@ export default function Opret() {
       </div>
 
       <div className="form-group">
-        <label>Password</label>
         <input
           type="password"
           className="form-control"
