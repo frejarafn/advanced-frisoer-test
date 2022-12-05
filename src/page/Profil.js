@@ -1,6 +1,7 @@
 // Nadia
 
 import "../styles/Profil.css";
+import Header from "../components/Header";
 import { BsPersonFill } from 'react-icons/bs';
 import { TiDeleteOutline } from 'react-icons/ti';
 import { NavLink } from "react-router-dom";
@@ -8,6 +9,7 @@ import { NavLink } from "react-router-dom";
 export default function Profil() {
     return (
             <section>
+                <Header></Header>
                     {/*Profil billede og tekst*/}
                     <div className="profil-main">
                         <BsPersonFill className="profil-billede"/>
