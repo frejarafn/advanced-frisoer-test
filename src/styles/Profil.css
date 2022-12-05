@@ -10,12 +10,11 @@
 }
 
 .profil-billede{
-    font-size: 60px;
+    font-size: 120px;
     border-style: solid;
     border-radius: 80px;
-    padding: 2rem;
+    padding: 1rem;
     color: rgb(83, 83, 83);
-    
 }
 
 .profil-tekst{
@@ -24,6 +23,8 @@
     display: flex;
     color: #262626;
     font-family: Open Sans;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 /*main indhold*/
@@ -81,6 +82,7 @@
     padding-bottom: 0.5rem;
     font-size: 15px;
     font-family: Open Sans;
+
 }
 
 /*indstillinger knap*/
