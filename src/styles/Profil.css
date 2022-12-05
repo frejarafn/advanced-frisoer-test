@@ -26,11 +26,12 @@
 }
 
 .tidsstekst{
-    
+    margin-top: -1.5rem;
+   
 }
 
 .betalingstekst{
-
+    margin-top: -1.5rem;
 }
 
 .slet-ikon1{
@@ -46,7 +47,7 @@
     color: #ffffff;
     font-size: 30px;
     border-radius: 50px;
-    margin-left: 6.9rem;
+    margin-left: 7.6rem;
 }
 
 /*betalingskortknap*/
