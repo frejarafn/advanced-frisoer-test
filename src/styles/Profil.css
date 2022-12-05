@@ -85,7 +85,7 @@
     padding-bottom: 0.5rem;
     font-size: 15px;
     font-family: Open Sans;
-
+    cursor: pointer;
 }
 
 /*indstillinger knap*/
@@ -101,6 +101,7 @@
     padding-bottom: 0.5rem;
     font-family: Open Sans;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .indstillinger-knap a {
@@ -123,6 +124,7 @@
     padding-bottom: 0.5rem;
     font-family: Open Sans;
     font-size: 17px;
+    cursor: pointer;
 }
 
 .logud-knap a {
