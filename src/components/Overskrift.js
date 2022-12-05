@@ -3,7 +3,7 @@
 import React from "react";
 import '../styles/Overskrift.css';
 
-export default function overskrift(props) {
+export default function Overskrift(props) {
 
     return (
         <>
