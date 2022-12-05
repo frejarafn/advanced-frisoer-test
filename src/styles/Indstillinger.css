@@ -1,19 +1,32 @@
 /*Nadia*/
 
-/*notifikation*/
+/*Overskrift*/
+.brugerindhold-overskrift{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
+/*switch*/
+
+
+/*notifikation*/
 .notifikation-tekst{
-    margin-left: 3rem;
+    margin-left: 2.5rem;
 }
 
 /*Form - start - overskrift*/
-.brugerindhold-overskrift{
-    margin-left: 3rem;
+.form-overskrift{
+    margin-left: 2.5rem;
 }
 
 /*Formen*/
+.container-skift-indhold{
+    margin-left: -0.3rem;
+}
+
 .input-indhold {
-    width: 30vh;
+    width: 36vh;
     height: 4vh;
     border-radius: 10vh;
     padding-left: 3vh;
@@ -44,5 +57,11 @@
     border-width: 1.2px;
     border-color: #262626;
     color: #ffffff;
-    padding: 0 2rem;
+    margin-left: 8.7rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-weight: bold;
+
 }
