@@ -25,6 +25,7 @@
     font-family: Open Sans;
     margin-top: 0.8rem;
     margin-bottom: 2rem;
+    font-size: 18px;
 }
 
 /*main indhold*/
@@ -48,6 +49,7 @@
     margin-top: -0.3rem;
     margin-bottom: 2rem;
     font-family: Open Sans;
+    font-size: 18px;
 }
 
 /*ikoner*/
@@ -65,7 +67,7 @@
     color: #ffffff;
     font-size: 30px;
     border-radius: 50px;
-    margin-left: 7.7rem;
+    margin-left: 6.7rem;
     font-family: Open Sans;
 }
 
