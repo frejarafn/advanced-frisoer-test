@@ -13,7 +13,6 @@
   color: white;
   align-items: center;
   justify-content: center;
-  padding-inline-end: 40px;
 }
 .navbar ul li {
   list-style-type: none;
@@ -93,7 +92,7 @@
   display: flex;
   justify-content: center;
 
-  padding-right: 115px;
+  padding-right: 80px;
   flex-basis: fit-content;
 }
 
