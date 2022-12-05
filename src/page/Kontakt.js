@@ -2,7 +2,7 @@
 
 import React from "react"; 
 import Overskrift from '../components/Overskrift';
-import TilbageHeader from '../components/TilbageHeader';
+import Header from '../components/Header';
 import '../styles/Kontakt.css';
 
 
@@ -11,12 +11,16 @@ export default function kontakt() {
     return(
         <>
         <section>
-        
-            <TilbageHeader/> 
-
+            <Header/> 
          <div className="os">
-            <div className="img"></div>
+            
+            <div className="img">
+
+            </div>
          <Overskrift overskrift="Kontakt salonen" />
+        </div>
+        <div className="tekst">
+         
 
         </div>
 
