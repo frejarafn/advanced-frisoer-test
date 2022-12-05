@@ -1,4 +1,6 @@
 .Overskrift {
     font-size: 20px; 
-    color: pink; 
+    display: flex; 
+    justify-content: center;
+    
 }
