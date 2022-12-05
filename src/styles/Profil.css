@@ -1,7 +1,5 @@
 /*Nadia*/
 
-@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=Open+Sans:wght@300&display=swap');
-
 /*profil*/
 .profil-main{
     justify-content: center;
@@ -12,12 +10,11 @@
 }
 
 .profil-billede{
-    font-size: 60px;
+    font-size: 120px;
     border-style: solid;
     border-radius: 80px;
-    padding: 2rem;
+    padding: 1rem;
     color: rgb(83, 83, 83);
-    
 }
 
 .profil-tekst{
@@ -26,6 +23,8 @@
     display: flex;
     color: #262626;
     font-family: Open Sans;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
 }
 
 /*main indhold*/
@@ -41,12 +40,13 @@
 
 .profil-betaling{
     padding-left: 2.5rem;
-    margin-top: 2.5rem;
+    margin-top: 2.3rem;
     font-family: Open Sans;
 }
 
 .betalingstekst{
-    margin-top: -1.5rem;
+    margin-top: -0.3rem;
+    margin-bottom: 2rem;
     font-family: Open Sans;
 }
 
@@ -82,6 +82,7 @@
     padding-bottom: 0.5rem;
     font-size: 15px;
     font-family: Open Sans;
+
 }
 
 /*indstillinger knap*/
