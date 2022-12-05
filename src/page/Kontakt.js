@@ -2,12 +2,20 @@
 
 import React from "react"; 
 import Overskrift from '../components/Overskrift';
-export default function() {
+import TilbageHeader from '../components/TilbageHeader';
+import '../styles/Kontakt.css';
+
+
+export default function kontakt() {
 
     return(
         <>
         <section>
-         <div>
+        
+            <TilbageHeader/> 
+
+         <div className="os">
+            <div className="img"></div>
          <Overskrift overskrift="Kontakt salonen" />
 
         </div>

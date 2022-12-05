@@ -7,7 +7,9 @@ export default function Overskrift(props) {
 
     return (
         <>
-            <h1>{props.name}</h1>
+        <div>
+            <h1>{props.overskrift}</h1>
+        </div>
         </>
     )
 }
