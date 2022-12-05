@@ -1,0 +1,20 @@
+.infokategori {
+    border-style: solid;
+    text-decoration: none;
+
+}
+
+.infokategori p {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.infolink a {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
