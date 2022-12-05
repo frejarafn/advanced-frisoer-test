@@ -16,12 +16,15 @@
     color: rgb(83, 83, 83);
 }
 
-/*main indhold*/
-.profil-tider{
-    padding-left: 2.5rem;
+.profil-tekst{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    color: #262626;
 }
 
-.profil-betaling{
+/*main indhold*/
+.profil-tider{
     padding-left: 2.5rem;
 }
 
@@ -29,10 +32,16 @@
     margin-top: -1.5rem;
 }
 
+.profil-betaling{
+    padding-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
 .betalingstekst{
     margin-top: -1.5rem;
 }
 
+/*ikoner*/
 .slet-ikon1{
     background-color: #bb9894;
     color: #ffffff;
@@ -46,7 +55,7 @@
     color: #ffffff;
     font-size: 30px;
     border-radius: 50px;
-    margin-left: 7.6rem;
+    margin-left: 7.7rem;
 }
 
 /*betalingskortknap*/
@@ -55,6 +64,13 @@
     color: #ffffff;
     margin-left: 2.5rem;
     border-radius: 25px;
+    padding-left: 6rem;
+    padding-right: 5.1rem;
+    border-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 15px;
+    font-family: Open Sans;
 }
 
 /*indstillinger knap*/
@@ -63,6 +79,11 @@
     justify-content: center;
     display: flex;
     background-color: #bb9894;
+    margin-left: 2.5rem;
+    margin-right: 12.5rem;
+    border-radius: 25px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .indstillinger-knap a {
@@ -77,6 +98,11 @@
     display: flex;
     background-color: #c6a23d;
     border-radius: 25px;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    margin-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .logud-knap a {
