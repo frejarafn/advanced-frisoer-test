@@ -4,6 +4,14 @@
   align-items: center;
   gap: 1em;
   padding-top: 300px;
+  background-color: #262626;
+  padding-bottom: 300px;
+  padding-top: 300px;
+}
+
+.opret h1 {
+  font-size: 17px;
+  color: white;
 }
 
 .form-control {
