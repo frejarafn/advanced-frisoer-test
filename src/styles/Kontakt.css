@@ -17,6 +17,17 @@ background: pink;
 }
 
 .tekst {
-    height: 250px; 
-    background: blue;
+    height: 100px; 
+    background: green;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tekst2 {
+    height: 100px; 
+    background: pink; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
 }
