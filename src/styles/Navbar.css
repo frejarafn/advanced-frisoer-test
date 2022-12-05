@@ -4,7 +4,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-
+  padding: 0.5em;
   border-top: 1.5px solid #000000;
 }
 .navbar ul {
@@ -43,7 +43,7 @@
 }
 
 .booking svg {
-  font-size: 2.5em;
+  font-size: 3.5em;
   background-color: rgb(187, 152, 148);
   border: 20px;
   border-radius: 2em;
@@ -92,7 +92,7 @@
   display: flex;
   justify-content: center;
 
-  padding-right: 80px;
+  padding-right: 110px;
   flex-basis: fit-content;
 }
 
