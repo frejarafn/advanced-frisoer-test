@@ -15,12 +15,12 @@ export default function Profil() {
 
                      {/*Main indhold*/}
                     <div className="profil-tider">
-                        <h3>Mine tider</h3>
+                        <h3 className="tiderOverskrift">Mine tider</h3>
                         <h4 className="tidstekst">Dame klipning - d. 15 dec. kl. 10.00 <TiDeleteOutline className="slet-ikon1"/></h4>
                     </div>
 
                     <div className="profil-betaling">
-                        <h3>Gemte betalingskort</h3>
+                        <h3 className="betalingoverskrift">Gemte betalingskort</h3>
                         <h4 className="betalingstekst">xxxx-xxxx-xxxx-xxxx <TiDeleteOutline className="slet-ikon2"/></h4>
                     </div>
 
