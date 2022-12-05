@@ -6,6 +6,7 @@ export default function Behandlinger() {
     <div>
       <main>
         <h1>Behandlinger</h1>
+      
       </main>
     </div>
   );

@@ -10,8 +10,9 @@ export default function Header() {
 
     const Line = props => {
         const name = props.name
-        return <div>{propss.show && <h1>{name}</h1>}</div>
+        return <div>{props.show && <h1>{name}</h1>}</div>
     }
+
     return (
         <header>
             <Tilbageknap></Tilbageknap>
@@ -19,8 +20,6 @@ export default function Header() {
                  <NavLink className="headerlogo" to="/">
                     <Line name ="Kontakt" show/> 
                      </NavLink> 
-
-
             </div>
         </header>
     );
