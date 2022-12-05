@@ -41,12 +41,13 @@
 
 .profil-betaling{
     padding-left: 2.5rem;
-    margin-top: 2.5rem;
+    margin-top: 2.3rem;
     font-family: Open Sans;
 }
 
 .betalingstekst{
-    margin-top: -1.5rem;
+    margin-top: -0.3rem;
+    margin-bottom: 2rem;
     font-family: Open Sans;
 }
 
