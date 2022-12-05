@@ -10,13 +10,13 @@ export default function Produkter() {
         <section>
             <Header />
 
-            <p>
+            <p className="broedtekst">
                 Jeg forhandler professionelle hårprodukter til forbrugervenlige priser.
             </p>
             <div>
                 <Overskrift overskrift="Milkshake" />
             </div>
-            <p>
+            <p className="broedtekst">
                 Går du op i omtanke for miljøet, men ikke vil gå på kompromis med dit hår.
                 <br></br>
                 <br></br>
@@ -30,7 +30,7 @@ export default function Produkter() {
             <div>
                 <Overskrift overskrift="L'Oreal " />
             </div>
-            <p>
+            <p className="broedtekst">
                 Hvis du går op i den nyeste beauty teknologi, hvor produkterne har fokus på at finde en løsning til netop din hårtype uden at skulle gå på kompromis med miljøet.
             </p>
 
