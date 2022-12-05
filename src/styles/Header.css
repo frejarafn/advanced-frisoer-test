@@ -8,6 +8,7 @@
     justify-content: center;
     border-bottom: solid;
     border-width: 0.5px;
+    background-color: var(--header);
   }
   
   .headerflex img {
