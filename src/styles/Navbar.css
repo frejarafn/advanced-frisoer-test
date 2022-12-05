@@ -1,0 +1,64 @@
+.navbar {
+  background-color: rgb(187, 152, 148);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+  border-top: 1.5px solid #000000;
+}
+.navbar ul {
+  display: flex;
+  gap: 1rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  padding-inline-end: 40px;
+}
+.navbar ul li {
+  list-style-type: none;
+}
+.navbar ul svg {
+  font-size: 2.5em;
+}
+
+.navbar a {
+  color: var(--colorMain-black);
+}
+
+.booking svg {
+  font-size: 3em;
+  background-color: rgb(187, 152, 148);
+  border: 20px;
+  border-radius: 2em;
+  padding: 0.2em;
+
+  border-color: black;
+
+  border: 1.5px solid #000000;
+}
+
+.booking {
+  color: white;
+  font-size: 2em;
+}
+
+.booking:active {
+  color: black;
+}
+
+.forside:active {
+  color: black;
+}
+
+.behandlinger:active {
+  color: black;
+}
+
+.information:active {
+  color: black;
+}
+
+.profil:active {
+  color: black;
+}
