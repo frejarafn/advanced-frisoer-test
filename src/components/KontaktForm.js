@@ -3,7 +3,7 @@ import React, { UseRef } from 'react'
 import '../styles/kontaktform.css';
 import emailjs from '@emailjs/browser'; 
 
-  const kontakt = () => {
+  const Contact = () => {
 
   const form = UseRef();
 
@@ -40,4 +40,4 @@ import emailjs from '@emailjs/browser';
     </>
      }; 
 
-     export default kontakt; 
+     export default Contact; 
