@@ -9,10 +9,18 @@ import emailJS from '@emailjs/browser';
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs
+    .sendForm(
+        'service_li2rdfo',
+         'template_9cryvft',
+          form.current,
+        'A6VWAVX495uVFtwA0'
+        )
+
       .then((result) => {
           console.log(result.text);
-      }, (error) => {
+      },
+        (error) => {
           console.log(error.text);
       });
   };
