@@ -1,7 +1,7 @@
 .infokategori {
     border-style: solid;
     text-decoration: none;
-
+    margin-bottom: 0.09em;
 }
 
 .infokategori p {
@@ -9,6 +9,8 @@
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .infolink a {

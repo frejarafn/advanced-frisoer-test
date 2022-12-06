@@ -60,7 +60,7 @@
     font-size: 30px;
     border-radius: 50px;
     margin-left: 1rem;
-    font-family: Open Sans;
+    box-shadow: 0.5px 0.8px 1px grey;
 }
 
 .slet-ikon2{
@@ -68,8 +68,8 @@
     color: #ffffff;
     font-size: 30px;
     border-radius: 50px;
-    margin-left: 6.7rem;
-    font-family: Open Sans;
+    margin-left: 6.5rem;
+    box-shadow: 0.5px 0.8px 1px grey;
 }
 
 /*betalingskortknap*/
@@ -78,14 +78,15 @@
     color: #ffffff;
     margin-left: 2.5rem;
     border-radius: 25px;
-    padding-left: 6rem;
-    padding-right: 5.1rem;
+    padding-left: 5.1rem;
+    padding-right: 4.8rem;
     border-style: none;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    font-size: 15px;
-    font-family: Open Sans;
+    font-size: 16px;
+    font-family: Open Sans semibold;
     cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
 }
 
 /*indstillinger knap*/
@@ -102,12 +103,13 @@
     font-family: Open Sans;
     font-size: 17px;
     cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
 }
 
 .indstillinger-knap a {
     color: #ffffff;
     text-decoration: none;
-    font-family: Open Sans;
+    font-family: Open Sans semibold;
 }
 
 /*log ud knap*/
@@ -122,13 +124,14 @@
     margin-right: 3rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    font-family: Open Sans;
+    font-family: Open Sans semibold;
     font-size: 17px;
     cursor: pointer;
+    box-shadow: 1px 1px 2px grey;
 }
 
 .logud-knap a {
     color: #ffffff;
     text-decoration: none;
-    font-family: Open Sans;
+    font-family: Open Sans semibold;
 }
