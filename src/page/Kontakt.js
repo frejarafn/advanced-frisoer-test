@@ -1,9 +1,11 @@
 //Michelle 
 
-import React, { useState } from 'react'
+import React from 'react'
 import Overskrift from '../components/Overskrift';
 import Header from '../components/Header';
+import KontaktForm from '../components/KontaktForm';
 import '../styles/Kontakt.css';
+
 
 
 export default function kontakt() {
@@ -14,6 +16,7 @@ export default function kontakt() {
 
     const Info= ['Mobil: 51303057', 
                  'Email: golden-hairstudio@hotmail.com']
+
 
     return(
         <>
@@ -33,9 +36,8 @@ export default function kontakt() {
             {Info.map (Information=> <p>{Information}</p>)}
         </div>
 
-        <div className="kontaktform">
-
-
+        <div className="form">
+            <KontaktForm />
         </div>
         </section> 
         </>
