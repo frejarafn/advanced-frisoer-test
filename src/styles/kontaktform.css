@@ -1,0 +1,7 @@
+input[type="submit"] {
+    margin-top: 2rem; 
+    color: black; 
+    border: none; 
+    cursor: pointer; 
+
+}
