@@ -2,6 +2,7 @@
 
 import "../styles/Indstillinger.css";
 import Header from "../components/Header";
+import SwitchKnap from "../components/SwitchKnap";
 export default function Indstillinger() {
     return (
             <section>
@@ -14,7 +15,7 @@ export default function Indstillinger() {
                     <div className="notifikationer">
                         <h3 className="notifikation-tekst">Notifikationer</h3>
                         <div className="switch-notifikation">
-
+                        <SwitchKnap/>
                         </div>
                     </div>
 

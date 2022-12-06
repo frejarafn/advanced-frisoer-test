@@ -4,11 +4,15 @@
 .brugerindhold-overskrift{
     text-align: center;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
-/*switch*/
-
+/*Switch*/
+.switch-notifikation{
+    margin-left: 15.5rem;
+    margin-top: -1.8rem;
+    margin-bottom: 1.5rem;
+}
 
 /*notifikation*/
 .notifikation-tekst{
@@ -27,16 +31,17 @@
 
 .input-indhold {
     width: 36vh;
-    height: 4vh;
+    height: 5vh;
     border-radius: 10vh;
     padding-left: 3vh;
-    font-size: 14px;
+    font-size: 15px;
     border: none;
     outline: none;
     cursor: pointer;
     border-style: solid;
     border-color: #262626;
     border-width: 1.2px;
+    box-shadow: 0.5px 0.8px 2px grey;
 }
 
 
@@ -53,15 +58,17 @@
     justify-content: center;
     display: flex;
     background-color: #c6a23d;
-    border-radius: 12px;
-    border-width: 1.2px;
+    border-radius: 15px;
+    border-width: 1px;
     border-color: #262626;
     color: #ffffff;
-    margin-left: 8.7rem;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    margin-left: 8.3rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     cursor: pointer;
-
+    font-family: Open Sans semibold;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px grey;
 }
