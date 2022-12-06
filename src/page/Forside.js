@@ -1,18 +1,28 @@
 // Michelle
-
 import React from "react";
-import { useAuthState } from "react-firebase-hooks/auth";
-import { auth } from "../firebaseConfig";
+import Overskrift from '../components/Overskrift';
 
 export default function Forside() {
-  const [user] = useAuthState(auth);
+ 
   return (
+   <section>
     <div>
-      {user && (
-        <>
-          <span>Velkommen {user.displayName || user.email}</span>
-        </>
-      )}
+
+
     </div>
+    <div>
+    <Overskrift overskrift="Dine Favoritter" />
+    </div>
+    <div>
+
+    </div>
+    <div>
+      
+      </div>
+      <div>
+      <Overskrift overskrift="Tilbud og kampagner" />
+      </div>
+
+   </section>
   );
-}
+};
