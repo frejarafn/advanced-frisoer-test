@@ -20,7 +20,7 @@ export default function Profil() {
       </div>
 
       <div className="profil-tekst">
-        <p className="profil-navn">
+        <p className="profil-navn"> Freja
           {" "}
           {user && (
             <>

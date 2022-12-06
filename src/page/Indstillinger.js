@@ -22,7 +22,7 @@ export default function Indstillinger() {
                     <br></br>
 
                     {/*Form - start*/}
-                    <div className="form">
+                    <div className="form-brugerindhold">
                         <h3 className="form-overskrift">Skift brugerindhold</h3>
                     </div>
 
