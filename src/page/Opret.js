@@ -1,18 +1,20 @@
 // Gerda
 import "../styles/Opret.css";
 import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig";
+import { useState } from "react";
 
 export default function Opret() {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [name, setName] = useState("");
+
   let navigate = useNavigate();
 
   const handleSignup = async () => {
-    createUserWithEmailAndPassword(auth, email, password);
+    await createUserWithEmailAndPassword(auth, email, password);
     updateProfile(auth.currentUser, { displayName: name });
     navigate("/");
   };
