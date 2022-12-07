@@ -3,10 +3,12 @@ import React from "react";
 
 export default function Booking() {
   return (
-    <div>
+   
       <main>
+        <section>
         <h1>Booking</h1>
+        </section>
       </main>
-    </div>
+   
   );
 }

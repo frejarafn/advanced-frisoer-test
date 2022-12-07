@@ -1,11 +1,11 @@
 // Michelle 
-import React, { UseRef } from 'react'
+import React, { useRef } from 'react'
 import '../styles/kontaktform.css';
 import emailjs from '@emailjs/browser'; 
 
   const Contact = () => {
-
-  const form = UseRef();
+  
+  const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();

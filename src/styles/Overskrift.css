@@ -1,5 +1,7 @@
-.Overskrift {
-    font-size: 20px; 
+/*Michelle*/
+
+h1 {
+    font-size: 25px; 
     display: flex; 
     justify-content: center;
-}
+} 
