@@ -10,7 +10,7 @@ export default function OmSalonen() {
                     <h1 className="modernesalon-overskrift">En moderne salon</h1>
                     <p className="Mode-intro-tekst">Golden Hairstudio er en moderne frisør salon. Jeg holder mig opdateret i, hvad der rør sig af trends og kan stå inde for at give dig en unik frisure.</p>
                     <img className="Kigind-billede" src="/images/KigInd1.jpg" alt="Salonen udefra"></img>
-                </div>
+                </div> 
                     
                 <div className="minbaggrund-main">
                     <h2 className="minbaggrund-overskrift">Min baggrund</h2>
