@@ -5,11 +5,52 @@
   gap: 1em;
   padding-top: 300px;
   background-color: #262626;
-  padding-bottom: 300px;
   padding-top: 300px;
 }
 
 .login h1 {
   font-size: 17px;
   color: white;
+}
+
+.login-main {
+  background-color: #262626;
+}
+
+.opretdig {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-content: space-between;
+  gap: 110px;
+  padding-top: 0.5em;
+  font-family: "Open Sans", "Sans serif";
+  color: white;
+}
+
+.opretdig a {
+  color: white;
+  font-size: 14px;
+}
+
+.loginflex {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 300px;
+}
+
+.login-btn {
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 3rem;
+  font-family: Open Sans;
+  cursor: pointer;
+  font-size: 17px;
+  border-style: solid;
+  border-color: #262626;
+  padding: 5px 15px 5px 15px;
+  border-width: 1.2px;
 }
