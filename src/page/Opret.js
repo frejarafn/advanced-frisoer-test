@@ -5,6 +5,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig";
 import { useState } from "react";
+import { Tilbageknap } from "../components/Tilbageknap";
 
 export default function Opret() {
   const [name, setName] = useState("");
@@ -19,44 +20,49 @@ export default function Opret() {
     navigate("/");
   };
   return (
-    <div className="opret">
-      <h1>Opret din profil</h1>
-
-      <div className="form-group">
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Brugernavn"
-          onChange={(e) => {
-            setName(e.target.value);
-          }}
-        />
+    <main>
+      <div className="tilbage">
+        <Tilbageknap></Tilbageknap>
       </div>
+      <div className="opret">
+        <h1>Opret din profil</h1>
 
-      <div className="form-group">
-        <input
-          type="email"
-          className="form-control"
-          placeholder="E-mail"
-          onChange={(e) => {
-            setEmail(e.target.value);
-          }}
-        />
-      </div>
+        <div className="form-group">
+          <input
+            type="text"
+            className="form-control"
+            placeholder="Brugernavn"
+            onChange={(e) => {
+              setName(e.target.value);
+            }}
+          />
+        </div>
 
-      <div className="form-group">
-        <input
-          type="password"
-          className="form-control"
-          placeholder="Kodeord"
-          onChange={(e) => {
-            setPassword(e.target.value);
-          }}
-        />
+        <div className="form-group">
+          <input
+            type="email"
+            className="form-control"
+            placeholder="E-mail"
+            onChange={(e) => {
+              setEmail(e.target.value);
+            }}
+          />
+        </div>
+
+        <div className="form-group">
+          <input
+            type="password"
+            className="form-control"
+            placeholder="Kodeord"
+            onChange={(e) => {
+              setPassword(e.target.value);
+            }}
+          />
+        </div>
+        <button className="opret-btn" onClick={handleSignup}>
+          Opret
+        </button>
       </div>
-      <button className="opret-btn" onClick={handleSignup}>
-        Opret
-      </button>
-    </div>
+    </main>
   );
 }
