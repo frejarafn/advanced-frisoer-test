@@ -5,7 +5,6 @@ import "../styles/Header.css";
 import { Tilbageknap } from "./Tilbageknap";
 
 
-
 export default function Header() {
 
     const Line = props => {

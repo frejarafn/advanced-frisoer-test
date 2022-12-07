@@ -7,7 +7,6 @@ import Header from '../components/Header';
 import '../styles/Kontakt.css';
 
 
-
 export default function kontakt() {
 
     const Text= ['Er du interesseret eller har et spørgsmål', 
