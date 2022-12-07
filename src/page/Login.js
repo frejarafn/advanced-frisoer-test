@@ -6,6 +6,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../firebaseConfig";
 import { useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import wave from "./wave3.svg";
 
 export default function Login() {
   let navigate = useNavigate();
@@ -19,8 +20,10 @@ export default function Login() {
   };
   return (
     <div className="login-main">
+      <h1> Golden Hairstudio</h1>
+      <img className="wave" src={wave} alt="" />
       <div className="login">
-        <h1>Login</h1>
+        <h2>Login</h2>
         <div className="form-group">
           <input
             type="email"
@@ -54,7 +57,7 @@ export default function Login() {
       </div>
       <div className="loginflex">
         <button className="login-btn" onClick={handleLogin}>
-          Login
+          Log ind
         </button>
       </div>
     </div>

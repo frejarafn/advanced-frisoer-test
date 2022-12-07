@@ -3,15 +3,23 @@
   flex-direction: column;
   align-items: center;
   gap: 1em;
-  padding-top: 300px;
   background-color: #262626;
   padding-bottom: 300px;
-  padding-top: 300px;
+  padding-top: 400px;
 }
 
-.opret h1 {
+.opret h2 {
   font-size: 17px;
   color: white;
+}
+.opret-main h1 {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  top: 0;
+  z-index: 1;
+  color: white;
+  padding: 2em;
 }
 
 .form-control {
@@ -44,4 +52,9 @@
   border-color: #262626;
   padding: 5px 15px 5px 15px;
   border-width: 1.2px;
+}
+
+.tilbage {
+  position: absolute;
+  z-index: 100;
 }
