@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { auth } from "../firebaseConfig";
 import { useState } from "react";
 import { Tilbageknap } from "../components/Tilbageknap";
+import wave from "./wave3.svg";
 
 export default function Opret() {
   const [name, setName] = useState("");
@@ -20,12 +21,14 @@ export default function Opret() {
     navigate("/");
   };
   return (
-    <main>
+    <div className="opret-main">
+      <h1> Golden Hairstudio</h1>
+      <img className="wave" src={wave} alt="" />
       <div className="tilbage">
         <Tilbageknap></Tilbageknap>
       </div>
       <div className="opret">
-        <h1>Opret din profil</h1>
+        <h2>Opret din profil</h2>
 
         <div className="form-group">
           <input
@@ -63,6 +66,6 @@ export default function Opret() {
           Opret
         </button>
       </div>
-    </main>
+    </div>
   );
 }
