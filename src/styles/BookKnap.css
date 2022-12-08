@@ -1,0 +1,8 @@
+.book {
+    width: 95px; 
+    height: 35px;
+    background: #C6A23D; 
+    border-radius: 20px;
+    border: 1px solid black;  
+    font-size: 22px;
+}

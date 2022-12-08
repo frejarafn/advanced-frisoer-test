@@ -12,7 +12,7 @@ export default function sortiment() {
          alt="Salonen udefra">
          </img>
         </div>
-        <div>
+        <div className="Booking_btn_Container">
          <BookKnap/>
         </div>
         </>

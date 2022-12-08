@@ -13,7 +13,7 @@ export default function karussel(){
         
     ]
 
-    return( 
+    return ( 
         <section>
             <motion.div className="carousel">
                 <motion.div className="inner-carousel">

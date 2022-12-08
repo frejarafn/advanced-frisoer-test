@@ -20,7 +20,8 @@ export default function Forside() {
     <Overskrift overskrift="Dine Favoritter" />
     </div>
     <div className="Favorit_container">
-      
+      <Sortiment/>
+    
     </div>
     <div className="tilbud_container">
       <Overskrift overskrift="Tilbud og kampagner" />
