@@ -1,7 +1,9 @@
 // alle + Michelle kalender
-import React from "react";
-import { IoMdArrowDropdown } from "react-icons/io";
+import React, {useState} from "react";
 import "../styles/Booking.css";
+import Dropdown from "../components/Dropdown"; 
+
+import { IoMdArrowDropdown } from "react-icons/io";
 
 
 const Booking = () => {
@@ -18,24 +20,15 @@ const Booking = () => {
   const handleMenuTwo = () => {
     setOpen(false); 
   }; 
+  const handleMenuthree = () => {
+    setOpen(false); 
+  }; 
 
   return (
-  
-    <div className="dropdown"> 
-    <button onClick={handleOpen}>Dropdown</button>
-    {open ? (
-      <ul className="menu">
-        <li className="menu_item">
-          <button onClick={handleMenuOne}>menu 1</button>
-        </li>
-        <li className="menu_item">
-          <button onClick={handleMenuTwo}>Menu 2</button>
-        </li>
-      </ul>
-    ) : null}
-    {open ? <div>Is Open</div> : <div>Is Closed</div>}
-  </div>
-); 
+    <Dropdown/>
+  );
 }; 
+
+
 
 export default Booking; 
