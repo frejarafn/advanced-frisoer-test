@@ -7,7 +7,7 @@ export default function sortiment() {
     return(
         <>
         <div>
-        <img className="Kigind-billede" 
+        <img className="Kigind-image"  
          src="/images/KigInd2.jpg" 
          alt="Salonen udefra">
          </img>
