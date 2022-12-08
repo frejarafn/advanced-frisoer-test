@@ -21,16 +21,15 @@ const Booking = () => {
 
   return (
   
-    <div className="dropdown">
-       
+    <div className="dropdown"> 
     <button onClick={handleOpen}>Dropdown</button>
     {open ? (
       <ul className="menu">
         <li className="menu_item">
-          <button onClick={handlemenuOne}>menu 1</button>
+          <button onClick={handleMenuOne}>menu 1</button>
         </li>
         <li className="menu_item">
-          <button onClick={handlemenuTwo}>Menu 2</button>
+          <button onClick={handleMenuTwo}>Menu 2</button>
         </li>
       </ul>
     ) : null}
