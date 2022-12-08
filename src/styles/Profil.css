@@ -34,6 +34,11 @@
     font-family: Open Sans;
 }
 
+.MinetiderOverskrift{
+    margin-left: -15.3rem;
+    font-family: Open Sans;
+}
+
 .tidsstekst{
     margin-top: -1.5rem;
     font-family: Open Sans;
@@ -43,6 +48,11 @@
 .profil-betaling{
     padding-left: 2.5rem;
     margin-top: 2.3rem;
+    font-family: Open Sans;
+}
+
+.GemteBetalingOverskrift{
+    margin-left: -8.5rem;
     font-family: Open Sans;
 }
 
@@ -69,7 +79,7 @@
     font-size: 30px;
     border-radius: 50px;
     margin-left: 6.5rem;
-    box-shadow: 0.5px 0.8px 1px grey;
+    box-shadow: 0.5px 0.8px 1px grey; 
 }
 
 /*betalingskortknap*/

@@ -31,8 +31,8 @@ export default function Profil() {
       </div>
 
       {/*Main indhold*/}
-      <div className="profil-tider">
-        <h2 className="tiderOverskrift">Mine tider</h2>
+      <div className="profil-tider"> 
+        <h2 className="MinetiderOverskrift">Mine tider</h2>
         <h4 className="tidstekst">
           Dame klipning - d. 15 dec. kl. 10.00{" "}
           <TiDeleteOutline className="slet-ikon1" />
@@ -40,7 +40,7 @@ export default function Profil() {
       </div>
 
       <div className="profil-betaling">
-        <h2 className="betalingoverskrift">Gemte betalingskort</h2>
+        <h2 className="GemteBetalingOverskrift">Gemte betalingskort</h2>
         <h4 className="betalingstekst">
           xxxx-xxxx-xxxx-xxxx <TiDeleteOutline className="slet-ikon2" />
         </h4>
