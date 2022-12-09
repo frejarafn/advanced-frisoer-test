@@ -16,7 +16,7 @@ export default function HeaderBooking() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Booking" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Booking" show/> 
                      
                      </NavLink> 
             </div>

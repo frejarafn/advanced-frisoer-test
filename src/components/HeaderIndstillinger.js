@@ -16,7 +16,7 @@ export default function HeaderIndstillinger() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Indstilling" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Indstilling" show/> 
                      
                      </NavLink> 
             </div>

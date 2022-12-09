@@ -16,7 +16,7 @@ export default function HeaderForside() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Forside" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Forside" show/> 
                      
                      </NavLink> 
             </div>

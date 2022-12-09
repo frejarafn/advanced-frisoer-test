@@ -16,7 +16,7 @@ export default function HeaderOmSalon() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Om salonen" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Om salonen" show/> 
                      
                      </NavLink> 
             </div>

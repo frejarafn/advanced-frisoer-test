@@ -16,7 +16,7 @@ export default function HeaderProfil() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Profil" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Profil" show/> 
                      
                      </NavLink> 
             </div>

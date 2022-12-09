@@ -16,7 +16,7 @@ export default function HeaderKontakt() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Kontakt" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Kontakt" show/> 
                      
                      </NavLink> 
             </div>

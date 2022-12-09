@@ -16,7 +16,7 @@ export default function HeaderBehandlinger() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Behandlinger" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Behandlinger" show/> 
                      
                      </NavLink> 
             </div>

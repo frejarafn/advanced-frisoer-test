@@ -16,7 +16,7 @@ export default function HeaderProdukter() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Produkter" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Produkter" show/> 
                      
                      </NavLink> 
             </div>

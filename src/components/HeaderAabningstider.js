@@ -16,7 +16,7 @@ export default function HeaderAabningstider() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Åbningstider" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Åbningstider" show/> 
                      
                      </NavLink> 
             </div>
