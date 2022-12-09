@@ -13,10 +13,10 @@ export default function Forside() {
   <section>
     <HeaderForside /> 
     <div> 
-     
+    <Underskrift underskrift="Favoritter" />
     </div> 
     <div className="Favoritter">
-    <Underskrift underskrift="Favoritter" />
+   
     </div>
 
 
