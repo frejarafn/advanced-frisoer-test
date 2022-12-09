@@ -14,7 +14,20 @@ export default function Forside() {
   ];
 
   return (
-    <section className="Container">
+   <section className="Container">
+    <Header />
+    <h2>Velkommen Freja</h2>
+    <div className="Favoritter">
+    <h2>Dine Favoritter</h2> 
+    </div>
+    <div className="Favorit_container">
+      <Sortiment/>
+    
+    </div>
+    <div className="tilbud_container">
+      <h2>Tilbud og kampagner</h2> 
+      <Karussel />
+    </div>
       <Navbar />
       <Header />
       <h2>Velkommen Freja</h2>

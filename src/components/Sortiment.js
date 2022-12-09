@@ -6,15 +6,24 @@ export default function sortiment() {
 
     return(
         <>
-        <div>
+        <div className="sortiment_container">
+        <div className="Booking_btn">
         <img className="Kigind-image"  
          src="/images/KigInd2.jpg" 
          alt="Salonen udefra">
          </img>
-        </div>
-        <div className="Booking_btn_Container">
          <BookKnap/>
-        </div>
+         </div>
+         <div>
+         <img className="Kigind-image"  
+         src="/images/KigInd2.jpg" 
+         alt="Salonen udefra">
+         </img>
+         <BookKnap/>
+         </div>
+         </div>
+        
+        
         </>
     )
 }; 

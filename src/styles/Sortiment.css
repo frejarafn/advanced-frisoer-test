@@ -1,17 +1,27 @@
+.sortiment_container {
+    background: lime; 
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+}
+
 .Kigind-image {
     height: 165px; 
     width: 175px;
     border-radius: 20px;
-    position: absolute;
+    position: relative;
     left: 10px; 
+
 }
 
 .Booking_btn_Container {
-    width: 185px;
-    position: relative; 
-    top: 145px; 
-    left: 5px; 
-    display: flex;
-    justify-content: center;
-}
+    width: 185px; 
+    position: relative;
+    left: 50px; 
+    bottom: 18px; 
+   
+ 
+}  
+
+
 
