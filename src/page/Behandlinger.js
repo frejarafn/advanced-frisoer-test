@@ -1,12 +1,14 @@
 // Freja
 import React from "react";
 import BehandlingSection from "../components/behandlingfetch/BehandlingSection";
+import Header from "../components/Header";
 
 export default function Behandlinger() {
   return (
     <div>
       <main>
-        <h1>Behandlinger</h1>
+        <Header></Header>
+
         <BehandlingSection></BehandlingSection>
       </main>
     </div>

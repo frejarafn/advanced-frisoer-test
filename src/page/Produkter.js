@@ -9,10 +9,12 @@ export default function Produkter() {
     return (
         <section>
             <Header />
-            <h1>TEST</h1>
+            <br></br>
             <p className="broedtekst">
                 Jeg forhandler professionelle hårprodukter til forbrugervenlige priser.
             </p>
+            <br></br>
+
             <div>
                 <Overskrift overskrift="Milkshake" />
             </div>
