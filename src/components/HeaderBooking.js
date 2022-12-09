@@ -1,3 +1,5 @@
+//Michelle, Freja, Nadia
+
 import React from "react"; 
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
