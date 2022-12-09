@@ -17,14 +17,14 @@ export default function Forside() {
     <Header />
     <h2>Velkommen Freja</h2>
     <div className="Favoritter">
-    <Overskrift overskrift="Dine Favoritter" />
+    <h2>Dine Favoritter</h2> 
     </div>
     <div className="Favorit_container">
       <Sortiment/>
     
     </div>
     <div className="tilbud_container">
-      <Overskrift overskrift="Tilbud og kampagner" />
+      <h2>Tilbud og kampagner</h2> 
       <Karussel />
       </div>
     <div className="skrift_container">
