@@ -2,7 +2,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import BehandlingList from "../components/behandlingfetch/BehandlingList";
-import Header from "../components/HeaderBehandling.js";
+import Header from "../components/headers/HeaderBehandling.js";
 import Navbar from "../components/Navbar";
 
 export default function BehandlingerListe() {
