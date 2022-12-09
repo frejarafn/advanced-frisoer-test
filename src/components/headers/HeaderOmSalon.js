@@ -1,12 +1,12 @@
 //Michelle, Freja, Nadia
 
-import React from "react"; 
+import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Header.css";
-import { Tilbageknap } from "./Tilbageknap";
+import "../../styles/Header.css";
+import { Tilbageknap } from "../Tilbageknap";
 
 
-export default function HeaderAabningstider() {
+export default function HeaderOmSalon() {
 
     const Line = props => {
         const name = props.name
@@ -17,10 +17,10 @@ export default function HeaderAabningstider() {
         <header>
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
-                 <NavLink className="headerlogo" to="/">
-                    <Line className="HeaderOverskriftMain" name ="Åbningstider" show/> 
-                     
-                     </NavLink> 
+                <NavLink className="headerlogo" to="/">
+                    <Line className="HeaderOverskriftMain" name="Om salonen" show />
+
+                </NavLink>
             </div>
         </header>
     );

@@ -2,7 +2,7 @@
 
 import React from "react";
 import Underskrift from '../components/Underskrift';
-import Header from "../components/HeaderKontakt";
+import Header from "../components/headers/HeaderKontakt";
 import "../styles/Kontakt.css";
 import Navbar from "../components/Navbar";
 
