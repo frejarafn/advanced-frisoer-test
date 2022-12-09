@@ -22,13 +22,13 @@ export default function Opret() {
   };
   return (
     <div className="opret-main">
-      <h1> Golden Hairstudio</h1>
+      <h2> Golden Hairstudio</h2>
       <img className="wave" src={wave} alt="" />
       <div className="tilbage">
         <Tilbageknap></Tilbageknap>
       </div>
       <div className="opret">
-        <h2>Opret din profil</h2>
+        <h3>Opret din profil</h3>
 
         <div className="form-group">
           <input

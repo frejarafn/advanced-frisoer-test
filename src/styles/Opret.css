@@ -8,11 +8,11 @@
   padding-top: 400px;
 }
 
-.opret h2 {
+.opret h3 {
   font-size: 17px;
   color: white;
 }
-.opret-main h1 {
+.opret-main h2 {
   position: absolute;
   width: 100vw;
   height: auto;
