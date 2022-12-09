@@ -2,18 +2,20 @@
 
 .os {
     width: 100%; 
-    height: 400px; 
+    height: 450px; 
     display: flex;
     flex-direction: column;
-    align-items: center;     
+    align-items: center;      
 }
 
 .img {
-height: 300px; 
-width: 250px;
-border-radius: 20px; 
-margin: 25px;
-background: pink; 
+ margin: 45px;
+}
+
+.portraet {
+    height: 275px; 
+    width: 280px;
+    border-radius: 20px;
 }
 
 .tekst {
@@ -21,7 +23,8 @@ background: pink;
     display: flex; 
     flex-direction: column;
     justify-content: center;
-    margin-left: 10px;  
+    margin-left: 10px; 
+    font-size: 20px; 
 }
 
 .tekst2 {
@@ -29,6 +32,8 @@ background: pink;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .formular {

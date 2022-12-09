@@ -20,7 +20,12 @@ export default function kontakt() {
       <section>
         <Header />
         <div className="os">
-          <div className="img"></div>
+          <div className="img">
+          <img className="portraet"  
+         src="/images/KigInd2.jpg" 
+         alt="Salonen udefra">
+         </img>
+          </div>
           <Underskrift underskrift="Kontakt salonen" />
         </div>
         <div className="tekst">
@@ -38,4 +43,4 @@ export default function kontakt() {
       </section>
     </>
   );
-}
+}; 
