@@ -1,34 +1,35 @@
 // alle + Michelle kalender
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../styles/Booking.css";
-import Dropdown from "../components/Dropdown"; 
+import Dropdown from "../components/Dropdown";
+import Navbar from "../components/Navbar";
 
 import { IoMdArrowDropdown } from "react-icons/io";
 
-
 const Booking = () => {
-  const [open, setOpen] = React.useState(false); 
+  const [open, setOpen] = React.useState(false);
 
   const handleOpen = () => {
-    setOpen(!open); 
-  }; 
+    setOpen(!open);
+  };
 
   const handleMenuOne = () => {
-    setOpen(false); 
-  }; 
+    setOpen(false);
+  };
 
   const handleMenuTwo = () => {
-    setOpen(false); 
-  }; 
+    setOpen(false);
+  };
   const handleMenuthree = () => {
-    setOpen(false); 
-  }; 
+    setOpen(false);
+  };
 
   return (
-    <Dropdown/>
+    <div>
+      <Navbar />
+      <Dropdown />
+    </div>
   );
-}; 
+};
 
-
-
-export default Booking; 
+export default Booking;

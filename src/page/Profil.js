@@ -8,11 +8,13 @@ import { NavLink } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig";
 import { signOut } from "firebase/auth";
+import Navbar from "../components/Navbar";
 
 export default function Profil() {
   const [user] = useAuthState(auth);
   return (
     <section>
+      <Navbar />
       <Header></Header>
       {/*Profil billede og tekst*/}
       <div className="profil-main">
@@ -20,8 +22,9 @@ export default function Profil() {
       </div>
 
       <div className="profil-tekst">
-        <p className="profil-navn"> Freja
+        <p className="profil-navn">
           {" "}
+          Freja{" "}
           {user && (
             <>
               <span className="user">{user.displayName || user.email}</span>
@@ -31,7 +34,7 @@ export default function Profil() {
       </div>
 
       {/*Main indhold*/}
-      <div className="profil-tider"> 
+      <div className="profil-tider">
         <h2 className="MinetiderOverskrift">Mine tider</h2>
         <h4 className="tidstekst">
           Dame klipning - d. 15 dec. kl. 10.00{" "}
