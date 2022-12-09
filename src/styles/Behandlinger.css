@@ -2,3 +2,10 @@
     font-size: 2em;
     color: black;
   }
+
+  .behandlingoverblik {
+
+    border-style: solid;
+    text-decoration: none;
+    margin-bottom: 0.09em;
+  }
