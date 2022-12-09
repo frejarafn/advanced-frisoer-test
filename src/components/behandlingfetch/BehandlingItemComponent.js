@@ -17,7 +17,7 @@ export default function BehandlingItemComponent(props) {
     }, [props.id]);
 
     if (props.id === undefined) return <section>id parameter er ikke angivet</section>
-    if (post === undefined) return <section>post er ikke angivet</section>
+    if (post === undefined) return <section>Posts indlæses</section>
     return (
         <section>
             <BehandlingFullItem key={post.id} post={post} />
