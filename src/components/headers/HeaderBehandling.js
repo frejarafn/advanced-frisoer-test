@@ -2,8 +2,8 @@
 
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Header.css";
-import { Tilbageknap } from "./Tilbageknap";
+import "../../styles/Header.css";
+import { Tilbageknap } from "../Tilbageknap";
 
 
 export default function HeaderBehandlinger() {
