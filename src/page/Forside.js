@@ -36,8 +36,9 @@ export default function Forside() {
     <div>
     {Text.map (tekst=> <p>{tekst}</p>)} 
     </div>
-    <div className="">
+    <div className="Sortiment">
     <Sortiment/>
+   
 
     </div>
     <Navbar/> 
