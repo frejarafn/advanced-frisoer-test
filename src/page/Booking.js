@@ -1,6 +1,7 @@
 // alle + Michelle kalender
 import React, { useState } from "react";
 import "../styles/Booking.css";
+import Header from "../components/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
 import Navbar from "../components/Navbar";
 
@@ -26,6 +27,7 @@ const Booking = () => {
 
   return (
     <div>
+      <Header/>
       <Navbar />
       <Dropdown />
     </div>

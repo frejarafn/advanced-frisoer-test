@@ -1,7 +1,7 @@
 // Gerda
 
 import React from "react";
-import Header from "../components/Header";
+import Header from "../components/HeaderAabningstider.js";
 import Navbar from "../components/Navbar";
 import "../styles/Aabningstider.css";
 

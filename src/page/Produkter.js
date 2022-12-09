@@ -1,7 +1,7 @@
 // Freja
 
 import "../styles/Produkter.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderProdukter";
 import Overskrift from "../components/Overskrift";
 import Navbar from "../components/Navbar";
 

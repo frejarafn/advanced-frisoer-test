@@ -1,7 +1,7 @@
 // Nadia
 
 import "../styles/OmSalonen.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderOmSalon";
 import Navbar from "../components/Navbar";
 export default function OmSalonen() {
   return (

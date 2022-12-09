@@ -2,7 +2,7 @@
 
 import React from "react";
 import Overskrift from "../components/Overskrift";
-import Header from "../components/Header";
+import Header from "../components/HeaderKontakt";
 import "../styles/Kontakt.css";
 import Navbar from "../components/Navbar";
 

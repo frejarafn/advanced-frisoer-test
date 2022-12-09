@@ -1,7 +1,7 @@
 // Nadia
 
 import "../styles/Profil.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderProfil";
 import { BsPersonFill } from "react-icons/bs";
 import { TiDeleteOutline } from "react-icons/ti";
 import { NavLink } from "react-router-dom";

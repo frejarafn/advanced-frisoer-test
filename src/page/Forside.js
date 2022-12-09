@@ -1,7 +1,7 @@
 // Michelle
 import React from "react";
 import "../styles/Forside.css";
-import Header from "../components/Header";
+import Header from "../components/HeaderForside";
 import Overskrift from "../components/Overskrift";
 import Karussel from "../components/Karussel";
 import Sortiment from "../components/Sortiment";
