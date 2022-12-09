@@ -1,7 +1,7 @@
 //Michelle
 
 import React from "react";
-import Overskrift from "../components/Overskrift";
+import Underskrift from '../components/Underskrift';
 import Header from "../components/HeaderKontakt";
 import "../styles/Kontakt.css";
 import Navbar from "../components/Navbar";
@@ -21,7 +21,7 @@ export default function kontakt() {
         <Header />
         <div className="os">
           <div className="img"></div>
-          <Overskrift overskrift="Kontakt salonen" />
+          <Underskrift underskrift="Kontakt salonen" />
         </div>
         <div className="tekst">
           {Text.map((tekst) => (

@@ -2,7 +2,7 @@
 
 import "../styles/Produkter.css";
 import Header from "../components/HeaderProdukter";
-import Overskrift from "../components/Overskrift";
+import Underskrift from '../components/Underskrift';
 import Navbar from "../components/Navbar";
 
 export default function Produkter() {
@@ -18,7 +18,7 @@ export default function Produkter() {
             <br></br>
             <br></br>
             <div>
-                <Overskrift overskrift="Milkshake" />
+                <Underskrift underskrift="Milkshake" />
             </div>
             <p className="broedtekst">
                 Går du op i omtanke for miljøet, men ikke vil gå på kompromis med dit
@@ -32,7 +32,7 @@ export default function Produkter() {
             <img className="produkt" src="/images/spa2.jpg" alt="Fejl 404"></img>
 
             <div>
-                <Overskrift overskrift="L'Oreal " />
+                <Underskrift underskrift="L'Oreal " />
             </div>
             <p className="broedtekst">
                 Hvis du går op i den nyeste beauty teknologi, hvor produkterne har fokus
