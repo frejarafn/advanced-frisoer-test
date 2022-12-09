@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
-import BehandlingItemComponent from "../components/BehandlingItemComponent";
+import BehandlingItemComponent from "../components/behandlingfetch/BehandlingItemComponent";
 
-export default function BehandlingItem() {
+export default function BehandlingItem({ post }) {
     let params = useParams()
     console.log(params)
     return (
         <>
-            <BehandlingItemComponent id={params.ItemId}></BehandlingItemComponent>
+            <BehandlingItemComponent id={post.id}></BehandlingItemComponent>
         </>
     );
 }

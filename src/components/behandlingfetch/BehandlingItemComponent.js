@@ -7,7 +7,7 @@ export default function BehandlingItemComponent(props) {
     useEffect(() => {
         if (props.id === undefined) return
         async function getData(id) {
-            const res = await fetch(`https://portfolio.frejavangilst.com/wp-json/wp/v2/posts/${id}?_embed`);
+            const res = await fetch(`https://behandling.frejavangilst.com/wp-json/wp/v2/posts/${id}?_embed`);
             const data = await res.json();
             console.log(data);
             setPost(data);

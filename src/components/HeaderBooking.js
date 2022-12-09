@@ -1,11 +1,10 @@
-// Freja
 import React from "react"; 
 import { NavLink } from "react-router-dom";
 import "../styles/Header.css";
 import { Tilbageknap } from "./Tilbageknap";
 
 
-export default function Header() {
+export default function HeaderBooking() {
 
     const Line = props => {
         const name = props.name
@@ -17,7 +16,7 @@ export default function Header() {
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
                  <NavLink className="headerlogo" to="/">
-                    <Line name ="Kontakt" show/> 
+                    <Line className="HeaderOverskriftMain" name ="Booking" show/> 
                      
                      </NavLink> 
             </div>

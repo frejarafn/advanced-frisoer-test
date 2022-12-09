@@ -3,12 +3,14 @@
 import React from "react";
 import "../styles/Information.css";
 
-import Header from "../components/Header";
+import Header from "../components/HeaderInformation";
 import { NavLink } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 export default function Information() {
   return (
     <section>
+      <Navbar />
       <Header></Header>
 
       <div className="infokategori">
@@ -34,14 +36,6 @@ export default function Information() {
           <p>Om Salonen</p>
         </NavLink>
       </div>
-
-
-
-
-
-
-
     </section>
-
   );
 }
