@@ -3,6 +3,8 @@ import { Navigate, Route, Routes } from "react-router-dom";
 
 import Forside from "./page/Forside";
 import Behandlinger from "./page/Behandlinger";
+// import BehandlingItem from './pages/BehandlingItem';
+
 import Produkter from "./page/Produkter";
 import Booking from "./page/Booking";
 import Indstillinger from "./page/Indstillinger";
@@ -13,6 +15,9 @@ import OmSalonen from "./page/OmSalonen";
 import Opret from "./page/Opret";
 import Profil from "./page/Profil";
 import Aabningstider from "./page/Aabningstider";
+import BehandlingItem from "./page/BehandlingItem";
+import BehandlingList from "./components/behandlingfetch/BehandlingList";
+
 
 import "./App.css";
 
@@ -21,9 +26,11 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Forside />} />
-        <Route path="*" element={<Navigate to="/" />} />
         <Route path="/Forside" element={<Forside />} />
         <Route path="/Behandlinger" element={<Behandlinger />} />
+        <Route path="/BehandlingItem/:ItemId" element={<BehandlingItem />} />
+        <Route path="/BehandlingList/:ItemId" element={<BehandlingList />} />
+
         <Route path="/Produkter" element={<Produkter />} />
         <Route path="/Booking" element={<Booking />} />
         <Route path="/Indstillinger" element={<Indstillinger />} />
@@ -34,6 +41,7 @@ function App() {
         <Route path="/Opret" element={<Opret />} />
         <Route path="/Profil" element={<Profil />} />
         <Route path="/Aabningstider" element={<Aabningstider />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>
   );

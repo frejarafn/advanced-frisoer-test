@@ -8,7 +8,8 @@ export default function Behandlinger() {
     <div>
       <Navbar />
       <main>
-        <h1>Behandlinger</h1>
+        <Header></Header>
+
         <BehandlingSection></BehandlingSection>
       </main>
     </div>
