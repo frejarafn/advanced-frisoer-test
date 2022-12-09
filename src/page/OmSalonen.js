@@ -9,7 +9,7 @@ export default function OmSalonen() {
       <Navbar />
       <Header />
       <div className="modesalon-main">
-        <h1 className="modernesalon-overskrift">En moderne salon</h1>
+        <h2 className="modernesalon-overskrift">En moderne salon</h2>
         <p className="Mode-intro-tekst">
           Golden Hairstudio er en moderne frisør salon. Jeg holder mig opdateret
           i, hvad der rør sig af trends og kan stå inde for at give dig en unik
