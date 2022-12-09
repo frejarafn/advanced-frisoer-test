@@ -3,7 +3,7 @@
 import React from "react";
 import "../styles/Information.css";
 
-import Header from "../components/HeaderInformation";
+import Header from "../components/headers/HeaderInformation";
 import { NavLink } from "react-router-dom";
 import Navbar from "../components/Navbar";
 

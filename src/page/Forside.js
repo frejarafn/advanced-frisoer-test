@@ -1,19 +1,19 @@
 // Michelle
 import React from "react";
 import "../styles/Forside.css";
-import HeaderForside from '../components/HeaderForside';
+import HeaderForside from '../components/headers/HeaderForside';
 import Underskrift from '../components/Underskrift';
 import HTre from '../components/HTre';
 import Karussel from '../components/Karussel';
 import Sortiment from '../components/Sortiment';
-import Navbar from '../components/Navbar'; 
+import Navbar from '../components/Navbar';
 
 
 export default function Forside() {
 
-  const Text= ['Alle pensionister og studerende får 20%',
-                 'på klipning og 10% på farvebehandling',
-                ]
+  const Text = ['Alle pensionister og studerende får 20%',
+    'på klipning og 10% på farvebehandling',
+  ]
 
   return( 
   <section>
@@ -36,13 +36,12 @@ export default function Forside() {
     <div>
     {Text.map (tekst=> <p>{tekst}</p>)} 
     </div>
-    <div className="Sortiment">
+    <div className="">
     <Sortiment/>
-   
 
     </div>
     <Navbar/> 
   </section>
   );
-}; 
+};
 

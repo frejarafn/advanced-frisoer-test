@@ -1,9 +1,9 @@
 //Michelle, Freja, Nadia
 
-import React from "react"; 
+import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Header.css";
-import { Tilbageknap } from "./Tilbageknap";
+import "../../styles/Header.css";
+import { Tilbageknap } from "../Tilbageknap";
 
 
 export default function HeaderBehandlinger() {
@@ -17,10 +17,10 @@ export default function HeaderBehandlinger() {
         <header>
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
-                 <NavLink className="headerlogo" to="/">
-                    <Line className="HeaderOverskriftMain" name ="Behandlinger" show/> 
-                     
-                     </NavLink> 
+                <NavLink className="headerlogo" to="/">
+                    <Line className="HeaderOverskriftMain" name="Behandlinger" show />
+
+                </NavLink>
             </div>
         </header>
     );

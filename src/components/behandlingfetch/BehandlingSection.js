@@ -19,9 +19,8 @@ export default function BehandlingSection() {
 
     return (
         <section>
-            <h2>Behandlinger</h2>
 
-            <div className=" "> {posts.map(post => (
+            <div className="behandlingoverblik"> {posts.map(post => (
                 <BehandlingPost key={post.id} post={post} />
             ))}</div>
 

@@ -1,8 +1,16 @@
-.sortiment_container {
-    background: lightblue;  
+/*Sortiment.js*/
+
+.Container_box {
+    height: 900px; 
+}
+
+
+/*OptionsSortiment.js*/
+
+.sortiment_container {  
     width: 370px; 
-    height: 250px; 
-    margin-top: 25px; 
+    height: 225px;
+    margin-top: 25px;   
     display: flex; 
     flex-direction: row; 
     justify-content: space-between;

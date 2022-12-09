@@ -1,12 +1,12 @@
 //Michelle, Freja, Nadia
 
-import React from "react"; 
+import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/Header.css";
-import { Tilbageknap } from "./Tilbageknap";
+import "../../styles/Header.css";
+import { Tilbageknap } from "../Tilbageknap";
 
 
-export default function HeaderProfil() {
+export default function HeaderInformation() {
 
     const Line = props => {
         const name = props.name
@@ -17,10 +17,10 @@ export default function HeaderProfil() {
         <header>
             <Tilbageknap></Tilbageknap>
             <div className="headerflex">
-                 <NavLink className="headerlogo" to="/">
-                    <Line className="HeaderOverskriftMain" name ="Profil" show/> 
-                     
-                     </NavLink> 
+                <NavLink className="headerlogo" to="/">
+                    <Line className="HeaderOverskriftMain" name="Information" show />
+
+                </NavLink>
             </div>
         </header>
     );

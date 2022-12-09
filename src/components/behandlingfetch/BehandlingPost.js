@@ -18,9 +18,10 @@ export default function BehandlingPost({ post }) {
                     <h3>{parse(post.name)}</h3>
                     {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></div> */}
                 </article>
-                <figure>
+                {/* <figure>
                     <img src={image} alt={post.name} />
-                </figure></Link>
+                </figure> */}
+            </Link>
         </section>
     );
 }
