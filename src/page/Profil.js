@@ -70,6 +70,9 @@ export default function Profil() {
       >
         <NavLink to="/Login">Log ud</NavLink>
       </div>
+
+      <br></br>
+    
     </section>
   );
 }
