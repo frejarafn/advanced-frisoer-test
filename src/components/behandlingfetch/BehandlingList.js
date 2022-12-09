@@ -2,7 +2,9 @@
 import BehandlingItem from "../../page/BehandlingItem";
 import { useEffect, useState } from "react";
 
+
 export default function BehandlingList(props) {
+
     const [posts, setPosts] = useState([]);
     // Her hentes datalisten fra json Wordpress
     useEffect(() => {
@@ -18,7 +20,7 @@ export default function BehandlingList(props) {
 
     return (
         <section>
-            <h2>Behandlinger</h2>
+            <h2>Behandlinger </h2>
 
             <div className=" "> {posts.map(post => (
                 <BehandlingItem key={post.id} post={post} />

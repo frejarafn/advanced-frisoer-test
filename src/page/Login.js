@@ -20,10 +20,10 @@ export default function Login() {
   };
   return (
     <div className="login-main">
-      <h1> Golden Hairstudio</h1>
+      <h2> Golden Hairstudio</h2>
       <img className="wave" src={wave} alt="" />
       <div className="login">
-        <h2>Login</h2>
+        <h3>Login</h3>
         <div className="form-group">
           <input
             type="email"

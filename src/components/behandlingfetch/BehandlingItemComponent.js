@@ -20,8 +20,8 @@ export default function BehandlingItemComponent(props) {
     if (post === undefined) return <section>post er ikke angivet</section>
     return (
         <section>
-            <h2>Behandlinger</h2>
             <BehandlingFullItem key={post.id} post={post} />
+            <button>BESTIL</button>
         </section>
 
     );
