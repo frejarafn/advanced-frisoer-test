@@ -1,8 +1,11 @@
 .sortiment_container {
-    background: lime; 
-    width: 100%; 
+    background: lightblue;  
+    width: 370px; 
+    height: 100%; 
+    margin-top: 25px; 
     display: flex; 
     flex-direction: row; 
+    justify-content: space-between;
 }
 
 .Kigind-image {
@@ -11,17 +14,25 @@
     border-radius: 20px;
     position: relative;
     left: 10px; 
-
 }
 
-.Booking_btn_Container {
-    width: 185px; 
-    position: relative;
-    left: 50px; 
-    bottom: 18px; 
-   
- 
+
+
+.Booking_btn {
+   display: flex; 
+   flex-direction: column;
 }  
 
+.btn {
+    position: relative; 
+    bottom: 2vh; 
+    left: 6vh; 
+}
+
+.btnB {
+    position: relative; 
+    bottom: 2.5vh; 
+    left: 6vh;
+}
 
 

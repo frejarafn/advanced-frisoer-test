@@ -1,2 +1,15 @@
-/*Michelle*/ 
+/*Michelle*/  
 
+.Favorit_container {
+    height: 300px; 
+    margin-top: 15px; 
+    background: purple; 
+}
+
+
+.Karussel_container {
+    height: 200px; 
+    width: 100%; 
+    background: pink; 
+
+}
