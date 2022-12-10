@@ -7,19 +7,15 @@ import {useRef, useEffect, useState} from "react";
 
 export default function karussel(){
 
-    const images= [ 
-        "Firstfoto",
-        "Secondfoto"
-        
-    ]
+  const image= [1,2,3,4,5].map(n => `/images/KigInd${n}.jpg`); 
 
     return ( 
         <section>
             <motion.div className="carousel">
                 <motion.div className="inner-carousel">
-                {images.map (image => {
+                {image.map ((image, key) => {
                     return(
-                        <motion.div>
+                        <motion.div key={key}>
                             <img src ={image} alt="" />
                         </motion.div>
                     )
@@ -27,5 +23,5 @@ export default function karussel(){
                 </motion.div>
             </motion.div>
         </section>
-    )
-};
+    );
+}; 

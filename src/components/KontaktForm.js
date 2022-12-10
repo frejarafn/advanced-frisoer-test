@@ -26,8 +26,7 @@ import emailjs from '@emailjs/browser';
       });
   };
 
-    return <>
-      <form ref={form} onSubmit={sendEmail}>
+    return <form ref={form} onSubmit={sendEmail}>
               <label>Name</label>
                <input type="text" name="user_name" />
                 <label>Email</label>
@@ -36,8 +35,8 @@ import emailjs from '@emailjs/browser';
              <textarea name="message" />
            <input type="submit" value="Send" />
         </form>
-
-    </>
      }; 
 
      export default Contact; 
+
+    

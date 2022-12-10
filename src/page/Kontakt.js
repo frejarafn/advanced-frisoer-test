@@ -1,9 +1,10 @@
 //Michelle
 
 import React from "react";
-import Underskrift from '../components/Underskrift';
+import Underskrift from "../components/Underskrift";
 import Header from "../components/headers/HeaderKontakt";
 import "../styles/Kontakt.css";
+import KontaktForm from "../components/KontaktForm";
 import Navbar from "../components/Navbar";
 
 export default function kontakt() {
@@ -21,26 +22,29 @@ export default function kontakt() {
         <Header />
         <div className="os">
           <div className="img">
-          <img className="portraet"  
-         src="/images/KigInd2.jpg" 
-         alt="Salonen udefra">
-         </img>
+            <img
+              className="portraet"
+              src="/images/KigInd2.jpg"
+              alt="Salonen udefra"
+            ></img>
           </div>
           <Underskrift underskrift="Kontakt salonen" />
         </div>
         <div className="tekst">
-          {Text.map((tekst) => (
-            <p>{tekst}</p>
+          {Text.map ((tekst, key) => (
+            <p key={key}>{tekst}</p>
           ))}
         </div>
         <div className="tekst2">
-          {Info.map((Information) => (
-            <p>{Information}</p>
+          {Info.map((Information, key) => (
+            <p key={key}>{Information}</p>
           ))}
         </div>
 
-        <div className="formular"></div>
+        <div className="formular">
+          <KontaktForm />
+        </div>
       </section>
     </>
   );
-}; 
+}
