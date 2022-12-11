@@ -5,6 +5,7 @@ import Header from "../components/headers/HeaderIndstillinger";
 import SwitchKnap from "../components/SwitchKnap";
 import Navbar from "../components/Navbar";
 export default function Indstillinger() {
+  
   return (
     <section>
       <Navbar />
@@ -29,6 +30,7 @@ export default function Indstillinger() {
       </div>
 
       {/*Form bokse*/}
+      <form>
       <div className="container-skift-indhold">
         <div className="skiftindhold2">
           <input
@@ -61,10 +63,14 @@ export default function Indstillinger() {
         </div>
       </div>
 
-      <br></br>
+      {/*Skift knap ----- skal tjekkes
+      <button className="skift-knap">Skift</button> */}
+      
+      {/*Skift knap 2*/}
+      <input type="submit" value="Skift" className="SubmitKnapIndstillinger" 
+      onClick={() => window.alert('Denne ændring er bekræftet')}/>
+      </form>
 
-      {/*Skift knap*/}
-      <button className="skift-knap">Skift</button>
     </section>
   );
 }

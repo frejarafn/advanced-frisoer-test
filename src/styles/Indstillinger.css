@@ -57,7 +57,7 @@
     align-items: center;
 }
 
-/*skift knap*/
+/*skift knap ----------- skal tjekkes
 .skift-knap{
     text-align: center;
     justify-content: center;
@@ -76,7 +76,7 @@
     font-family: Open Sans semibold;
     font-size: 16px;
     box-shadow: 1px 1px 2px grey;
-}
+} */
 
 .SubmitKnapIndstillinger {
     text-align: center;
