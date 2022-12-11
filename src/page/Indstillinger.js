@@ -10,7 +10,7 @@ export default function Indstillinger() {
       <Navbar />
       <Header />
       <div>
-        <h1 className="brugerindhold-overskrift">Brugerindhold</h1>
+        <h2 className="brugerindhold-overskrift">Brugerindhold</h2>
       </div>
 
       {/*Notifikation*/}
@@ -21,7 +21,7 @@ export default function Indstillinger() {
         </div>
       </div>
 
-      <br></br>
+      <br></br> 
 
       {/*Form - start*/}
       <div className="form-brugerindhold">

@@ -35,7 +35,7 @@
 }
 
 .MinetiderOverskrift{
-    margin-left: -12.6rem;
+    margin-left: -13.4rem;
     font-family: Open Sans;
 }
 
@@ -52,13 +52,13 @@
 }
 
 .GemteBetalingOverskrift{
-    margin-left: -4.7rem;
+    margin-left: -6.5rem;
     font-family: Open Sans;
 }
 
 .betalingstekst{
     margin-top: -0.3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     font-family: Open Sans;
     font-size: 18px;
 }
@@ -71,6 +71,7 @@
     border-radius: 50px;
     margin-left: 1rem;
     box-shadow: 0.5px 0.8px 1px grey;
+    margin-bottom: -0.7rem;
 }
 
 .slet-ikon2{
@@ -80,6 +81,7 @@
     border-radius: 50px;
     margin-left: 6.5rem;
     box-shadow: 0.5px 0.8px 1px grey; 
+    margin-bottom: -0.5rem;
 }
 
 /*betalingskortknap*/

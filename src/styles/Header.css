@@ -17,7 +17,8 @@
   
   .headerlogo {
     width: 40%;
-    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
   }
   
   .headerback {
@@ -26,4 +27,5 @@
   
    h1{
     color: white;
+    font-size: 28px;
   }
