@@ -9,6 +9,7 @@
     border-bottom: solid;
     border-width: 0.5px;
     background-color: var(--header);
+    border-color: #262626;
   }
   
   .headerflex img {
