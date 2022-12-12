@@ -9,6 +9,7 @@
     border-bottom: solid;
     border-width: 0.5px;
     background-color: var(--header);
+    border-color: #262626;
   }
   
   .headerflex img {
@@ -17,7 +18,8 @@
   
   .headerlogo {
     width: 40%;
-    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
   }
   
   .headerback {
@@ -26,4 +28,5 @@
   
    h1{
     color: white;
+    font-size: 28px;
   }

@@ -5,23 +5,28 @@
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2.5rem;
+    font-size: 26px;
 }
 
 /*Switch*/
 .switch-notifikation{
     margin-left: 15.5rem;
-    margin-top: -1.8rem;
+    margin-top: -2.8rem;
     margin-bottom: 1.5rem;
 }
 
 /*notifikation*/
 .notifikation-tekst{
     margin-left: 2.5rem;
+    justify-content: start;
+    font-size: 24px;
 }
 
 /*Form - start - overskrift*/
 .form-overskrift{
     margin-left: 2.5rem;
+    justify-content: start;
+    font-size: 23px;
 }
 
 /*Formen*/
@@ -34,7 +39,7 @@
     height: 5vh;
     border-radius: 10vh;
     padding-left: 3vh;
-    font-size: 15px;
+    font-size: 16px;
     border: none;
     outline: none;
     cursor: pointer;
@@ -52,8 +57,7 @@
     align-items: center;
 }
 
-/*skift knap*/
-.skift-knap{
+.SubmitKnapIndstillinger[value] {
     text-align: center;
     justify-content: center;
     display: flex;
@@ -69,6 +73,7 @@
     padding-right: 3rem;
     cursor: pointer;
     font-family: Open Sans semibold;
-    font-size: 15px;
+    font-size: 16px;
     box-shadow: 1px 1px 2px grey;
 }
+

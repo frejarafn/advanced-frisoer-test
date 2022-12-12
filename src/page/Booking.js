@@ -4,6 +4,9 @@ import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
 import Navbar from "../components/Navbar";
+import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
+// Registering Syncfusion license key
+import { registerLicense } from "@syncfusion/ej2-base";
 
 import { IoMdArrowDropdown } from "react-icons/io";
 
@@ -24,12 +27,18 @@ const Booking = () => {
   const handleMenuthree = () => {
     setOpen(false);
   };
+  registerLicense(
+    "ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diWH5YdXFVQGRdVkE="
+  );
 
   return (
     <div>
       <Header />
       <Navbar />
       <Dropdown />
+      <div>
+        <DateTimePickerComponent placeholder="Vælg dato og tid"></DateTimePickerComponent>
+      </div>
     </div>
   );
 };
