@@ -7,7 +7,7 @@
 }
 
 .e-input-group-icon.e-date-icon::before,
-*.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+.e-control-wrapper .e-input-group-icon.e-date-icon::before {
   font-size: 20px;
 }
 
