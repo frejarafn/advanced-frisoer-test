@@ -4,19 +4,18 @@
 
 .behandlingoverblik h3 {
     font-size: 2em;
-    color: black;
+    color: white;
   }
 
-  .behandlingoverblik {
+  /* .behandlingoverblik {
 
     border-style: solid;
     text-decoration: none;
     margin-bottom: var(--category-margin);
-  }
+  } */
   .behandlingoverblik .client-row {
   border-style: solid;
     text-decoration: none;
-    margin-bottom:  var(--category-margin);
 }
 
 .behandlingoverblik .category {
@@ -25,3 +24,47 @@
   z-index: -2;
   top: calc(-1 * var(--category-margin));
 }
+
+
+
+
+.behandlingkategori {
+  display: grid;
+  width: 100%;
+  place-items: center;
+  place-content: center;
+  text-decoration: none;
+}
+
+.behandlingkategori > * {
+  grid-area: 1 / 1;
+
+}
+
+.behandlingkategori > img {
+  width: 100%;
+  opacity: 70%;
+
+}
+
+.behandlingkategori > div {
+  color: white;
+  font-size: 32px;
+  font-family: montserrat,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  z-index: 2;
+}
+
+
+.behandlingsection > div > p {
+text-align: center;
+margin-top: 1em;
+margin-bottom: 1em;
+}
+
+.behandlingsection > div > figure {
+  display: flex;
+  flex-direction: column;
+  }
+

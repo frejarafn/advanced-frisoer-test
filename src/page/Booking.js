@@ -5,7 +5,8 @@ import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
 import Navbar from "../components/Navbar";
 import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
-// Registering Syncfusion license key
+
+// Registrering af Syncfusion license key
 import { registerLicense } from "@syncfusion/ej2-base";
 
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -36,8 +37,13 @@ const Booking = () => {
       <Header />
       <Navbar />
       <Dropdown />
-      <div>
+      <div className="kalender">
         <DateTimePickerComponent placeholder="Vælg dato og tid"></DateTimePickerComponent>
+      </div>
+      <div className="kommentarer-form">
+        <label htmlFor="">Yderligere kommentarer? </label>
+        <input type="Kommentarer" className="form-control" />
+        <button className="book-btn">Book</button>
       </div>
     </div>
   );

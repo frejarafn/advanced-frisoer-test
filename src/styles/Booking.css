@@ -1,5 +1,32 @@
 @import url("https://cdn.syncfusion.com/ej2/material.css");
 
+.kalender {
+  padding-top: 1em;
+}
+
+.kommentarer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.book-btn {
+     width: 95px;
+    height: 35px;
+    background: #c6a23d;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px grey;
+    color: white;
+    border-color: #c6a23d;
+    font-size: 22px;
+    border-style: solid;
+
+}
+
 .e-calendar .e-content td.e-focused-date.e-today span.e-day {
   background-color: #bb9894;
   color: #fff;
@@ -7,7 +34,7 @@
 }
 
 .e-input-group-icon.e-date-icon::before,
-*.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+.e-control-wrapper .e-input-group-icon.e-date-icon::before {
   font-size: 20px;
 }
 

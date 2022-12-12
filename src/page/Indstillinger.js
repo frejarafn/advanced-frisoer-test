@@ -2,6 +2,7 @@
 
 import "../styles/Indstillinger.css";
 import Header from "../components/headers/HeaderIndstillinger";
+import BrugerindholdForm from "../components/BrugerindholdForm.js";
 import SwitchKnap from "../components/SwitchKnap";
 import Navbar from "../components/Navbar";
 export default function Indstillinger() {
@@ -24,50 +25,13 @@ export default function Indstillinger() {
 
       <br></br> 
 
-      {/*Form - start*/}
+      {/*Form - Overskrift*/}
       <div className="form-brugerindhold">
         <h3 className="form-overskrift">Skift brugerindhold</h3>
       </div>
 
-      {/*Form bokse*/}
-      <form>
-      <div className="container-skift-indhold">
-        <div className="skiftindhold2">
-          <input
-            type="text"
-            placeholder="Brugernavn"
-            className="input-indhold"
-          />
-        </div>
-      </div>
-
-      <div className="container-skift-indhold">
-        <div className="skiftindhold2">
-          <input
-            type="text"
-            placeholder="Kodeord"
-            className="input-indhold"
-            id="inputnr2"
-          />
-        </div>
-      </div>
-
-      <div className="container-skift-indhold">
-        <div className="skiftindhold2">
-          <input
-            type="text"
-            placeholder="Gentag kodeord"
-            className="input-indhold"
-            id="inputnr2"
-          /> 
-        </div>
-      </div>
-      
-      {/*Skift knap 2*/}
-      <input type="submit" value="Skift" className="SubmitKnapIndstillinger" 
-      onClick={() => window.alert('Denne ændring er bekræftet')}/>
-      </form>
-
+      {/*Form indholdsbokse + knap*/}
+      <BrugerindholdForm></BrugerindholdForm>
     </section>
   );
 }
