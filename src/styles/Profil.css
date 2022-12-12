@@ -179,12 +179,16 @@
     margin-top: 0.5rem;
     width: 27vh;
     height: 3.5vh;
+    border-style: solid;
+    border-width: 0.5px;
   }
 
   .inputbetalingbokspopup2{
     margin-top: 0.5rem;
     width: 19vh;
     height: 3.5vh;
+    border-style: solid;
+    border-width: 0.5px;
   }
 
   /*pop up betaling knap*/
