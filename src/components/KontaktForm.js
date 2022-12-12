@@ -26,9 +26,9 @@ import emailjs from '@emailjs/browser';
       });
   };
 
-    return <form ref={form} onSubmit={sendEmail}>
+    return <form ref={form} onSubmit={sendEmail} className="form_container">
               <label>Name</label>
-               <input type="text" name="user_name" />
+               <input type="text" name="user_name" className="form_navn" />
                 <label>Email</label>
                  <input type="email" name="user_email" />
                <label>Message</label>
