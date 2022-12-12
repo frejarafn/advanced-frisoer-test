@@ -37,8 +37,13 @@ const Booking = () => {
       <Header />
       <Navbar />
       <Dropdown />
-      <div className="Kalender">
+      <div className="kalender">
         <DateTimePickerComponent placeholder="Vælg dato og tid"></DateTimePickerComponent>
+      </div>
+      <div className="kommentarer-form">
+        <label htmlFor="">Yderligere kommentarer? </label>
+        <input type="Kommentarer" className="form-control" />
+        <button className="book-btn">Book</button>
       </div>
     </div>
   );
