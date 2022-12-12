@@ -3,17 +3,49 @@ input[type="submit"] {
     color: black; 
     border: none; 
     cursor: pointer; 
+}
 
-} 
 .form_container {
     display: flex; 
     flex-direction: column;
+    align-items: center;
+    
+     
     margin-left: 10px; 
 }
 
 .form_navn {
-    height: 35px;
-    width: 250px; 
-    border-radius: 10px;
-     
+    height: 50px;
+    width: 350px; 
+    border-radius: 12px; 
+    border: 1px solid black; 
+    font-size: 22px;
+} 
+
+.form_email {
+    height: 50px; 
+    width: 350px; 
+    border-radius: 12px; 
+    border: 1px solid black; 
+    font-size: 22px;
 }
+
+.form_message {
+    height: 200px; 
+    width: 350px; 
+    border-radius: 12px;
+    border: 1px solid black; 
+    font-size: 22px; 
+}
+
+.send {
+    width: 95px; 
+    height: 35px;
+    background: #C6A23D; 
+    border-radius: 20px;
+    border: 1px solid black;  
+    font-size: 22px;  
+} 
+
+
+
