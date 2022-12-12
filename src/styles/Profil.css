@@ -147,3 +147,58 @@
     text-decoration: none;
     font-family: Open Sans semibold;
 }
+
+/*pop up betaling*/
+
+.popup-header-betaling{
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+
+.popup-indhold-betaling {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    padding: 5px;
+  }
+
+  [role="tooltip"].popup-indhold-betaling{
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+
+  /*overskrifterne for boksene*/
+  .inputBetalingOverksriftBoks{
+    margin-top: 0.5rem;
+  }
+
+  /*selve formen - boksene*/
+  .inputbetalingbokspopup{
+    margin-top: 0.5rem;
+    width: 27vh;
+    height: 3.5vh;
+  }
+
+  .inputbetalingbokspopup2{
+    margin-top: 0.5rem;
+    width: 19vh;
+    height: 3.5vh;
+  }
+
+  /*pop up betaling knap*/
+  .button-betaling{
+    background-color: #c6a23d;
+    color: #ffffff;
+    border-radius: 25px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: none;
+  }

@@ -9,6 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "../firebaseConfig";
 import { signOut } from "firebase/auth";
 import Navbar from "../components/Navbar";
+import Popup from "reactjs-popup";
 
 export default function Profil() {
   const [user] = useAuthState(auth);
@@ -49,7 +50,44 @@ export default function Profil() {
         </h4>
       </div>
 
-      <button className="betalingskort-knap">Tilføj betalingskort</button>
+{/*Tilføj betalingskort knap/popup*/}
+
+      <Popup
+          trigger={<button className="betalingskort-knap">Tilføj betalingskort</button>}
+          modal
+          nested
+        >
+          {(close) => (
+            <div className="popup-betaling">
+              <h4 className="popup-header-betaling"> Tilføj betalingskort </h4>
+              <div className="popup-indhold-betaling">
+
+              <p className="inputBetalingOverksriftBoks">Kortholder's navn</p>
+              <input label="Cardholder's Name" type="text" name="name" className="inputbetalingbokspopup" required />
+              
+              <p className="inputBetalingOverksriftBoks">Kort nummer</p>
+              <input label="Card Number" type="number" name="card_number" className="inputbetalingbokspopup" required />
+              
+              <p className="inputBetalingOverksriftBoks">Udløbsdato</p>
+              <input label="Expiration Date" type="month" name="exp_date" className="inputbetalingbokspopup2" required/>
+              
+              <p className="inputBetalingOverksriftBoks">CVV</p>
+              <input label="CVV" type="number" name="cvv" className="inputbetalingbokspopup2" required/>
+              </div>
+
+              <button
+                className="button-betaling"
+                onClick={() => {
+                  console.log("modal closed ");
+                  close();
+                }}
+              >
+                Tilføj
+              </button>
+            </div>
+          )}
+        </Popup>
+
 
       <br></br>
       <br></br>
