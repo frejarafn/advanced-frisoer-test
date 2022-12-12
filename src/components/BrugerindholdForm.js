@@ -12,7 +12,7 @@ export default function BrugerindholdForm() {
 
   // Den her funktion vil blive kaldt når knappen trykkes
   const handleLogin = () => {
-    window.alert('Denne ændring er beskræftet');
+    window.alert('Denne ændring er bekræftet');
   };
 
   return (
