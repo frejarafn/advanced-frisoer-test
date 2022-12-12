@@ -1,3 +1,4 @@
+// Freja
 
 import BehandlingItem from "../../page/BehandlingItem";
 import { useEffect, useState } from "react";

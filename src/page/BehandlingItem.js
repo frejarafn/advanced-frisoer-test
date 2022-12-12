@@ -1,3 +1,5 @@
+// Freja
+
 import { useParams } from "react-router-dom";
 import BehandlingItemComponent from "../components/behandlingfetch/BehandlingItemComponent";
 
