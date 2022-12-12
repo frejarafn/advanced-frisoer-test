@@ -59,12 +59,9 @@ export default function Indstillinger() {
             placeholder="Gentag kodeord"
             className="input-indhold"
             id="inputnr2"
-          />
+          /> 
         </div>
       </div>
-
-      {/*Skift knap ----- skal tjekkes
-      <button className="skift-knap">Skift</button> */}
       
       {/*Skift knap 2*/}
       <input type="submit" value="Skift" className="SubmitKnapIndstillinger" 
