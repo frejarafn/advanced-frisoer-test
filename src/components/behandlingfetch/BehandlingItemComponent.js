@@ -1,3 +1,5 @@
+// Freja
+
 import { useEffect, useState } from "react";
 import BehandlingFullItem from "./BehandlingFullItem";
 

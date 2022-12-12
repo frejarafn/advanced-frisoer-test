@@ -1,1 +1,33 @@
 @import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.e-calendar .e-content td.e-focused-date.e-today span.e-day {
+  background-color: #bb9894;
+  color: #fff;
+  border: none;
+}
+
+.e-input-group-icon.e-date-icon::before,
+.e-control-wrapper .e-input-group-icon.e-date-icon::before {
+  font-size: 20px;
+}
+
+.e-datetime-wrapper .e-time-icon.e-icons::before {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* To specify height and font size */
+.e-input-group input.e-input,
+.e-input-group.e-control-wrapper input.e-input {
+  font-size: 20px;
+  padding-right: 20px;
+  padding-left: 10px;
+  font-family: "Open Sans", "Sans serif";
+}
+
+/* To specify background color and font size */
+.e-datetime-wrapper .e-input-group-icon.e-date-icon,
+.e-datetime-wrapper .e-input-group-icon.e-time-icon {
+  font-size: 16px;
+  padding-right: 5px;
+}
