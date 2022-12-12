@@ -1,3 +1,7 @@
+:root {
+  --category-margin: 0.09em
+}
+
 .behandlingoverblik h3 {
     font-size: 2em;
     color: black;
@@ -7,5 +11,17 @@
 
     border-style: solid;
     text-decoration: none;
-    margin-bottom: 0.09em;
+    margin-bottom: var(--category-margin);
   }
+  .behandlingoverblik .client-row {
+  border-style: solid;
+    text-decoration: none;
+    margin-bottom:  var(--category-margin);
+}
+
+.behandlingoverblik .category {
+  width: 100%;
+  position: relative;
+  z-index: -2;
+  top: calc(-1 * var(--category-margin));
+}

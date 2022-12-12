@@ -16,11 +16,11 @@ export default function BehandlingPost({ post }) {
             <Link to={'/BehandlingList/' + post.id}>
                 <article>
                     <h3>{parse(post.name)}</h3>
+                    <img className="category" src={`/images/categories/${post.name}.jpg`} alt={post.name} />
+
                     {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></div> */}
+
                 </article>
-                {/* <figure>
-                    <img src={image} alt={post.name} />
-                </figure> */}
             </Link>
         </section>
     );

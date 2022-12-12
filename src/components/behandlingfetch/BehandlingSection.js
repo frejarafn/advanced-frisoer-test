@@ -20,7 +20,7 @@ export default function BehandlingSection() {
     return (
         <section>
 
-            <div className="behandlingoverblik"> {posts.map(post => (
+            <div className="behandlingoverblik"> {posts.filter(cat => cat.id !== 1).map(post => (
                 <BehandlingPost key={post.id} post={post} />
             ))}</div>
 
