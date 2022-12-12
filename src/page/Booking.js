@@ -5,6 +5,7 @@ import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
 import Navbar from "../components/Navbar";
 import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
+import Popup from "reactjs-popup";
 
 // Registrering af Syncfusion license key
 import { registerLicense } from "@syncfusion/ej2-base";
@@ -43,7 +44,28 @@ const Booking = () => {
       <div className="kommentarer-form">
         <label htmlFor="">Yderligere kommentarer? </label>
         <input type="Kommentarer" className="form-control" />
-        <button className="book-btn">Book</button>
+        <Popup
+          trigger={<button className="book-btn"> Book </button>}
+          modal
+          nested
+        >
+          {(close) => (
+            <div className="popup">
+              <div className="popup-header"> Din tid er bekræftet! </div>
+              <div className="popup-content"></div>
+
+              <button
+                className="button"
+                onClick={() => {
+                  console.log("modal closed ");
+                  close();
+                }}
+              >
+                Afslut
+              </button>
+            </div>
+          )}
+        </Popup>
       </div>
     </div>
   );
