@@ -150,8 +150,12 @@
 
 /*pop up betaling*/
 
+.popup-betaling{
+    margin-right: 3rem;
+}
+
 .popup-header-betaling{
-    margin-left: 2.2rem;
+    margin-left: 2rem;
     margin-bottom: 1rem;
     margin-top: 1rem;
     font-size: 20px;
