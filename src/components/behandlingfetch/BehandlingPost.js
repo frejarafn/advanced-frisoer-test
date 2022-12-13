@@ -1,5 +1,3 @@
-// Freja
-
 import { Link } from "react-router-dom";
 import parse from "html-react-parser";
 
@@ -19,7 +17,7 @@ export default function BehandlingPost({ post }) {
                 <article className="behandlingkategori">
                     <h3>{parse(post.name)}</h3>
                     <img className="category" src={`/images/categories/${post.name}.jpg`} alt={post.name} />
-
+                    {/* <div dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></div> */}
 
                 </article>
             </Link>
