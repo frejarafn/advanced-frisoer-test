@@ -9,7 +9,7 @@ import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
 // Popup komponent importeres
 import Popup from "reactjs-popup";
 // Registrering af Syncfusion license key
-import { registerLicense } from "@syncfusion/ejs2-base";
+import { registerLicense } from "@syncfusion/ej2-base";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Booking = () => {
@@ -30,7 +30,7 @@ const Booking = () => {
     setOpen(false);
   };
 
-  // Syncfusion license key
+  // Registrering af Syncfusion license key
   registerLicense(
     "ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diWH5YdXFVQGRdVkE="
   );
