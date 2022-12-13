@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 // alle 
 // Dropdown component kodet af Michelle 
 
 
+=======
+// Michelle + Gerda
+>>>>>>> 29000a843ecca7e1e352b31e70b1dbe84b8fd262
 import React, { useState } from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
@@ -32,6 +36,8 @@ const Booking = () => {
   const handleMenuthree = () => {
     setOpen(false);
   };
+
+  // Registrering af Syncfusion license key
   registerLicense(
     "ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diWH5YdXFVQGRdVkE="
   );
