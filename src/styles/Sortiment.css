@@ -1,44 +1,14 @@
-/*Sortiment.js*/
+/*Michelle*/
 
 .Container_box {
     height: 900px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-
-/*OptionsSortiment.js*/
-
-.sortiment_container {  
-    width: 370px; 
-    height: 225px;
-    margin-top: 25px;   
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between;
-}
-
-.Kigind-image {
-    height: 165px; 
+.Container_box img {
+    height: 175px; 
     width: 175px;
-    border-radius: 20px;
-    position: relative;
-    left: 10px; 
-}
-
-.Booking_btn {
-   display: flex; 
-   flex-direction: column;
-}  
-
-.btn {
-    position: relative; 
-    bottom: 2vh; 
-    left: 6vh; 
-}
-
-.btnB {
-    position: relative; 
-    bottom: 2.5vh; 
-    left: 6vh;
-}
-
+} 
 
