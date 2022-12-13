@@ -2,6 +2,7 @@
 
 .Container_box {
     height: 900px; 
+    background: pink; 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
