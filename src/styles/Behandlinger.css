@@ -61,10 +61,34 @@
 text-align: center;
 margin-top: 1em;
 margin-bottom: 1em;
+padding-left: 2.5rem;
+padding-right: 2.5rem;
 }
+.behandlingsection > h3 {
+  text-align: center;
+  font-weight: 800;
+  font-style: normal;  }
 
 .behandlingsection > div > figure {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   }
 
+  .behandlingsection > div > figure > img {
+  margin: 1em;
+
+    }
+  
+    .bestilbut {
+      background-color: #C6A23D;
+      font-size: 1.2em;
+  font-family: "Open Sans", "Sans serif";
+color: white;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 20px;
+  border-color: black;
+  padding: 0.4em;
+    }

@@ -2,7 +2,6 @@
   "name": "advanced-frisoer-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/frejarafn/advanced-frisoersalon",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@syncfusion/ej2-react-calendars": "^20.3.59",

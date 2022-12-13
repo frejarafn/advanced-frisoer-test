@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import BehandlingFullItem from "./BehandlingFullItem";
+import { NavLink } from "react-router-dom";
 
 export default function BehandlingItemComponent(props) {
     const [post, setPost] = useState(undefined);
@@ -23,7 +24,13 @@ export default function BehandlingItemComponent(props) {
     return (
         <section>
             <BehandlingFullItem key={post.id} post={post} />
-            <button>BESTIL</button>
+            <NavLink to="/Booking" className="profile-btn lightblue-btn">
+
+                <button className="bestilbut">
+                    Book
+                </button>
+            </NavLink>
+
         </section>
 
     );
