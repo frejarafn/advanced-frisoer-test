@@ -1,42 +1,22 @@
-<<<<<<< HEAD
+
 // alle 
 // Dropdown component kodet af Michelle 
 
-
-=======
-// Michelle + Gerda
->>>>>>> 29000a843ecca7e1e352b31e70b1dbe84b8fd262
-import React, { useState } from "react";
+import React  from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
 import Navbar from "../components/Navbar";
+
 // Kalender komponent importeres
 import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
 // Popup komponent importeres
 import Popup from "reactjs-popup";
 // Registrering af Syncfusion license key
 import { registerLicense } from "@syncfusion/ej2-base";
-import { IoMdArrowDropdown } from "react-icons/io";
+
 
 const Booking = () => {
-  const [open, setOpen] = React.useState(false);
-
-  const handleOpen = () => {
-    setOpen(!open);
-  };
-
-  const handleMenuOne = () => {
-    setOpen(false);
-  };
-
-  const handleMenuTwo = () => {
-    setOpen(false);
-  };
-  const handleMenuthree = () => {
-    setOpen(false);
-  };
-
   // Registrering af Syncfusion license key
   registerLicense(
     "ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diWH5YdXFVQGRdVkE="
@@ -47,6 +27,8 @@ const Booking = () => {
       <Header />
       <Navbar />
       <Dropdown /> 
+
+
       {/*Kalender komponent bruges her*/}
       <div className="kalender">
         <DateTimePickerComponent placeholder="Vælg dato og tid"></DateTimePickerComponent>
