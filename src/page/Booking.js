@@ -51,18 +51,24 @@ const Booking = () => {
         >
           {(close) => (
             <div className="popup">
-              <div className="popup-header"> Din tid er bekræftet! </div>
-              <div className="popup-content"></div>
-
-              <button
-                className="button"
-                onClick={() => {
-                  console.log("modal closed ");
-                  close();
-                }}
-              >
-                Afslut
-              </button>
+              <div className="popup-header">
+                {" "}
+                <h4>Din tid er bekræftet!</h4>{" "}
+              </div>
+              <div className="popup-content">
+                {" "}
+                Du har booket tid til: den XXX XXX XXX <br></br> Vi glæder os
+                til at se dig i salonen!
+                <button
+                  className="afslut-btn"
+                  onClick={() => {
+                    console.log("modal closed ");
+                    close();
+                  }}
+                >
+                  Afslut
+                </button>
+              </div>
             </div>
           )}
         </Popup>

@@ -26,6 +26,21 @@
   border-style: solid;
 }
 
+.afslut-btn {
+  background-color: #c6a23d;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 22px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: none;
+  box-shadow: 1px 1px 2px grey;
+  width: 95px;
+  height: 35px;
+}
+
 .e-calendar .e-content td.e-focused-date.e-today span.e-day {
   background-color: #bb9894;
   color: #fff;
@@ -58,11 +73,21 @@
   padding-right: 5px;
 }
 
+.popup-header {
+  text-align: center;
+  font-size: 1.5em;
+  padding-top: 1em;
+}
 .popup-content {
   margin: auto;
   background: rgb(255, 255, 255);
   width: 80%;
   padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+  gap: 1em;
 }
 .popup-arrow {
   color: rgb(255, 255, 255);
