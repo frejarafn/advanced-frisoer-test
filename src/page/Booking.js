@@ -29,6 +29,8 @@ const Booking = () => {
   const handleMenuthree = () => {
     setOpen(false);
   };
+
+  // Syncfusion license key
   registerLicense(
     "ORg4AjUWIQA/Gnt2VVhjQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0diWH5YdXFVQGRdVkE="
   );
