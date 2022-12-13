@@ -21,7 +21,7 @@ export default function Forside() {
     <div> 
     <Underskrift underskrift="Velkommen Freja" />
     </div> 
-    <div className="Velkommen Freja">
+    <div className="Favorit">
      <HTre htre="Favoritter" />
     </div>
     <div className="Favorit_container">
