@@ -1,4 +1,4 @@
-// alle + Michelle kalender
+// Michelle + Gerda
 import React, { useState } from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
@@ -9,7 +9,7 @@ import { DateTimePickerComponent } from "@syncfusion/ej2-react-calendars";
 // Popup komponent importeres
 import Popup from "reactjs-popup";
 // Registrering af Syncfusion license key
-import { registerLicense } from "@syncfusion/ej2-base";
+import { registerLicense } from "@syncfusion/ejs2-base";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const Booking = () => {
