@@ -1,13 +1,27 @@
 /*Michelle*/  
 
+.Parent_container {
+    display: flex;
+    flex-direction: column; 
+}
+
 .Favorit_container {
     height: 300px; 
     margin-top: 15px; 
     background: purple; 
 }
 
-
 .Karussel_container {
     height: 200px; 
     width: 100%; 
+}
+
+.text_til_tilbud {
+    margin: 75px 15px 50px; 
+    font-size: 20px;
+}
+
+.sortiment {
+ width: 390px;  
+
 }

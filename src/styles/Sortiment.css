@@ -1,44 +1,5 @@
-/*Sortiment.js*/
-
-.Container_box {
-    height: 900px; 
-}
+/*Michelle*/
 
 
-/*OptionsSortiment.js*/
-
-.sortiment_container {  
-    width: 370px; 
-    height: 225px;
-    margin-top: 25px;   
-    display: flex; 
-    flex-direction: row; 
-    justify-content: space-between;
-}
-
-.Kigind-image {
-    height: 165px; 
-    width: 175px;
-    border-radius: 20px;
-    position: relative;
-    left: 10px; 
-}
-
-.Booking_btn {
-   display: flex; 
-   flex-direction: column;
-}  
-
-.btn {
-    position: relative; 
-    bottom: 2vh; 
-    left: 6vh; 
-}
-
-.btnB {
-    position: relative; 
-    bottom: 2.5vh; 
-    left: 6vh;
-}
 
 
