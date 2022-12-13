@@ -1,15 +1,5 @@
 /*Michelle*/
 
-.Container_box {
-    height: 900px; 
-    background: pink; 
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
-.Container_box img {
-    height: 175px; 
-    width: 175px;
-} 
+
 
