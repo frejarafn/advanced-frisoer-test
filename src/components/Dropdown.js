@@ -1,9 +1,6 @@
 import React, {useState} from "react";
 import "../styles/Dropdown.css";
 
-import { IoMdArrowDropdown } from "react-icons/io";
-
-
 const Dropdown = () => {
   const [open, setOpen] = React.useState(false); 
 
@@ -18,16 +15,24 @@ const Dropdown = () => {
   const handleMenuTwo = () => {
     setOpen(false); 
   }; 
+
   const handleMenuthree = () => {
     setOpen(false); 
   }; 
 
+  const handleMenufour = () => {
+    setOpen(false); 
+  }; 
+
+  const handleMenufive = () => {
+    setOpen(false); 
+  }; 
+
+
   return (
     <section className="dropdown_container">
       <div className="Search">
-        <input type="text" placeholder="Vælg service" 
-          className="Search_Input"/>
-          <button onClick={handleOpen}>Dropdown</button>
+          <button className="Search_Input" onClick={handleOpen}>Vælg service</button>
             {open ? (
          <ul className="menu">
                <li className="menu-item">
@@ -37,7 +42,13 @@ const Dropdown = () => {
              <button onClick={handleMenuTwo}>Herre Klip</button>
            </li>
            <li className="menu-item">
-            <button onClick={handleMenuthree}>Hår opsætning</button>
+            <button onClick={handleMenuthree}>Farvning</button>
+          </li>
+          <li className="menu-item">
+            <button onClick={handleMenufour}>Permanent</button>
+          </li>
+          <li className="menu-item">
+            <button onClick={handleMenufive}>Hår opsætning</button>
           </li>
         </ul>
       ) : null}

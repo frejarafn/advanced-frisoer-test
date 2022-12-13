@@ -8,12 +8,13 @@ import Karussel from "../components/Karussel";
 import Sortiment from "../components/Sortiment";
 import Navbar from "../components/Navbar";
 
+
 export default function Forside() {
 
   const Text = [
     "Alle pensionister og studerende får 20%",
     "på klipning og 10% på farvebehandling",
-  ];
+  ]; 
 
   return (
     <section className="Parent_container">
@@ -24,7 +25,9 @@ export default function Forside() {
       <div className="Favorit">
         <HTre htre="Favoritter" />
       </div>
-      <div className="Favorit_container"></div>
+      <div className="Favorit_container">
+     
+      </div>
       <div>
         <HTre htre="Tilbud og kampagner" />
       </div>
@@ -32,11 +35,11 @@ export default function Forside() {
         <Karussel />
       </div>
       <div className="text_til_tilbud">
-        {Text.map((tekst) => (
-          <p>{tekst}</p>
+        {Text.map((tekst, key) => (
+          <p key={key}> {tekst}</p>
         ))}
       </div>
-      <div className="sortiment">
+      <div className="sortiment_wrapper">
         <Sortiment />
       </div>
       <Navbar />

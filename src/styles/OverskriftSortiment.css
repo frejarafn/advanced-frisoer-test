@@ -1,0 +1,9 @@
+.container {
+    background: pink; 
+    font-size: 25px; 
+    display: flex; 
+    justify-content: center;
+    position: relative; 
+    bottom: 100px;
+}
+

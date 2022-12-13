@@ -1,4 +1,7 @@
-// alle + Michelle kalender
+// alle 
+// Dropdown component kodet af Michelle 
+
+
 import React, { useState } from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
@@ -34,10 +37,10 @@ const Booking = () => {
   );
 
   return (
-    <div>
+    <section>
       <Header />
       <Navbar />
-      <Dropdown />
+      <Dropdown /> 
       {/*Kalender komponent bruges her*/}
       <div className="kalender">
         <DateTimePickerComponent placeholder="Vælg dato og tid"></DateTimePickerComponent>
@@ -73,7 +76,7 @@ const Booking = () => {
           )}
         </Popup>
       </div>
-    </div>
+    </section>
   );
 };
 

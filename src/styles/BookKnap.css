@@ -1,8 +1,15 @@
+/* Michelle */
+
 .book {
     width: 95px; 
     height: 35px;
     background: #C6A23D; 
     border-radius: 20px;
-    border: 1px solid black;  
+    border: none;  
     font-size: 22px;
-}
+    display: flex; 
+    justify-content: center;
+    position: relative; 
+    left: 40px;
+    bottom: 55px;  
+} 
