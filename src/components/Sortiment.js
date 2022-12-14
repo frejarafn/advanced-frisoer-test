@@ -39,7 +39,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Farvning.jpg"
             alt="Dame klip"
           ></img>
           <div>
@@ -53,7 +53,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Permanent.jpg"
             alt="Dame klip"
           ></img>
           <div>
@@ -67,7 +67,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Opsætning.jpg"
             alt="Dame klip"
           ></img>
           <div>
@@ -81,7 +81,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Bryn.jpg"
             alt="Dame klip"
           ></img>
           <div>
@@ -95,7 +95,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Vipper.jpg"
             alt="Dame klip"
           ></img>
           <div>
@@ -109,7 +109,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/categories/Kur.jpg"
             alt="Dame klip"
           ></img>
           <div>
