@@ -1,4 +1,4 @@
-//Michelle
+//Michelle & Freja
 
 import React from "react";
 import Underskrift from "../components/Underskrift";
@@ -52,8 +52,18 @@ export default function kontakt() {
 
         </div>
         <div className="socialsflex">
-          <img className="socials" src="/images/Face.jpg" alt="Facebook"></img>
-          <img className="socials" src="/images/Insta.jpg" alt="Instagram"></img>
+
+          <a href="https://www.facebook.com/profile.php?id=100076355199195">
+
+            <img className="socials" src="/images/Face.jpg" alt="Facebook"></img>
+          </a>
+
+          <a href="https://www.instagram.com/hairstudio.golden/">
+            <img className="socials" src="/images/Insta.jpg" alt="Instagram"></img>
+
+          </a>
+
+
         </div>
       </section>
     </>
