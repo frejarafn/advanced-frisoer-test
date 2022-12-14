@@ -2,7 +2,6 @@
 // Dropdown component kodet af Michelle
 
 import React from "react";
-
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
