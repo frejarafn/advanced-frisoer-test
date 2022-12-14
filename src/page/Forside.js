@@ -7,6 +7,7 @@ import HTre from "../components/HTre";
 import Karussel from "../components/Karussel";
 import Sortiment from "../components/Sortiment";
 import Navbar from "../components/Navbar";
+import Favoritter from "../components/Favoritter";
 
 
 export default function Forside() {
@@ -26,6 +27,7 @@ export default function Forside() {
         <HTre htre="Favoritter" />
       </div>
       <div className="Favorit_container">
+        <Favoritter/>
      
       </div>
       <div>

@@ -34,7 +34,7 @@ export default function sortiment() {
           <div>
             <BookKnap />
           </div>
-        </div>
+        </div> 
 
         <div>
           <img
