@@ -8,6 +8,10 @@ import KontaktForm from "../components/KontaktForm";
 import Navbar from "../components/Navbar";
 
 export default function kontakt() {
+
+  // ved at lave en const med et array kan du map over den og hente den. 
+  // Se linje 41. 
+
   const Text = [
     "Er du interesseret eller har et spørgsmål",
     "så kontakt mig gerne:",
@@ -20,6 +24,7 @@ export default function kontakt() {
       <Navbar />
       <section>
         <Header />
+        {/* Nestet children indeholdende image og en overskrift */}
         <div className="os">
           <div className="img">
             <img
@@ -30,17 +35,22 @@ export default function kontakt() {
           </div>
           <Underskrift underskrift="Kontakt salonen" />
         </div>
+
+        {/* children med text */}
         <div className="tekst">
           {Text.map((tekst, key) => (
             <p key={key}>{tekst}</p>
           ))}
         </div>
+
+        {/* children med tekst */}
         <div className="tekst2">
           {Info.map((Information, key) => (
             <p key={key}>{Information}</p>
           ))}
         </div>
 
+        {/* children med formular */}
         <div className="formular">
           <KontaktForm />
         </div>

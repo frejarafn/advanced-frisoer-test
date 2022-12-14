@@ -18,29 +18,42 @@ export default function Forside() {
   ]; 
 
   return (
+    // parent container
     <section className="Parent_container">
+      {/* header */}
       <HeaderForside />
       <div>
         <Underskrift underskrift="Velkommen Freja" />
       </div>
+
+      {/* overskrift */}
       <div className="Favorit">
         <HTre htre=" Dine favoritter" />
       </div>
+
+      {/* children container med favorit component */}
       <div className="Favorit_container">
         <Favoritter/>
-     
-      </div>
+      </div> 
+
+      {/* overskrift */}
       <div>
         <HTre htre="Tilbud og kampagner" />
       </div>
+
+      {/* children container med karussel component */}
       <div className="Karussel_container">
         <Karussel />
       </div>
+
+      {/* tekst */}
       <div className="text_til_tilbud">
         {Text.map((tekst, key) => (
           <p key={key}> {tekst}</p>
         ))}
       </div>
+
+      {/* children container med sortiment component */}
       <div className="sortiment_wrapper">
         <Sortiment />
       </div>

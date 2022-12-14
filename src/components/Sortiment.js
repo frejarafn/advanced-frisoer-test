@@ -7,8 +7,11 @@ import OverskriftSortiment from "../components/OverskriftSortiment";
 export default function sortiment() {
   return (
     <>
+    {/* Parent container */}
       <section className="Container_box"> 
-        <div>
+
+      {/* childrens med img, tekst og button */} 
+        <div> 
           <img
             className="Dameklip"
             src="/images/forside-dameklip1.png"
