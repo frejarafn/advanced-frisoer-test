@@ -60,12 +60,16 @@
 
 .login-main h2 {
   position: absolute;
-  width: 100vw;
   height: auto;
   top: 0;
   z-index: 1;
   color: white;
   padding: 2em;
+}
+
+.ghs-flex {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 600px) {
