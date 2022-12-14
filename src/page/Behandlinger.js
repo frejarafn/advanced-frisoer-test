@@ -14,7 +14,6 @@ export default function Behandlinger() {
         <Header></Header>
 
         <BehandlingSection></BehandlingSection>
-        <img className="image" src="/images/spa2.jpg" alt="Fejl 404"></img>
 
       </main>
     </div>
