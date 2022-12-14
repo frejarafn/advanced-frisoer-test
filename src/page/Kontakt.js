@@ -44,6 +44,9 @@ export default function kontakt() {
         <div className="formular">
           <KontaktForm />
         </div>
+
+
+        {/* kodet af freja */}
         <div>
           <p className="fangsocials">
             Eller fang mig på de sociale medier her:

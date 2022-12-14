@@ -7,7 +7,7 @@ import OverskriftSortiment from "../components/OverskriftSortiment";
 export default function sortiment() {
   return (
     <>
-      <section className="Container_box">
+      <section className="Container_box"> 
         <div>
           <img
             className="Dameklip"

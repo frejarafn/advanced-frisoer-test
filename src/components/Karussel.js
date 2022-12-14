@@ -20,7 +20,7 @@ export default function karussel(){
                 {image.map ((image, key) => {
                     return(
                         <motion.div key={key} className="item">
-                            <img src ={image} alt="" />
+                            <img src ={image} alt="frisør" />
                         </motion.div>
                     )
                 })} 
