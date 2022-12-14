@@ -6,7 +6,7 @@ import "../styles/BrugerindholdForm.css";
 export default function BrugerindholdForm() {
   // Denne useState hook bruges til at gemme værdierne fra inputfelterne
 
-  const [username] = useState('');
+  const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [nytpassword, setnytPassword] = useState('');
   const [repeatpassword, setrepeatPassword] = useState('');
@@ -25,6 +25,8 @@ export default function BrugerindholdForm() {
           <input
             type="text"
             value={username}
+            onChange={(e) => setUsername(e.target.value)}
+
             className="input-indhold"
             id="inputnr2"
             placeholder="Brugernavn"
