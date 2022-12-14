@@ -45,11 +45,15 @@ export default function kontakt() {
           <KontaktForm />
         </div>
         <div>
-          <p>Eller fang mig på de sociale medier her:</p>
+          <p className="fangsocials">
+            Eller fang mig på de sociale medier her:
+          </p>
+          <br></br>
+
         </div>
-        <div>
-          <img className="Kigind-billede" src="/images/Face.jpg" alt="Facebook"></img>
-          <img className="Kigind-billede" src="/images/Insta.jpg" alt="Instagram"></img>
+        <div className="socialsflex">
+          <img className="socials" src="/images/Face.jpg" alt="Facebook"></img>
+          <img className="socials" src="/images/Insta.jpg" alt="Instagram"></img>
         </div>
       </section>
     </>
