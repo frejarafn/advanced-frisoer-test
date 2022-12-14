@@ -43,7 +43,7 @@ export default function sortiment() {
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Dameklip" />
+            <OverskriftSortiment overskriftsortiment="Farvning" />
           </div>
           <div>
             <BookKnap />
@@ -57,7 +57,7 @@ export default function sortiment() {
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Dameklip" />
+            <OverskriftSortiment overskriftsortiment="Permanent" />
           </div>
           <div>
             <BookKnap />
@@ -71,7 +71,7 @@ export default function sortiment() {
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Dameklip" />
+            <OverskriftSortiment overskriftsortiment="Opsætning" />
           </div>
           <div>
             <BookKnap />
@@ -85,7 +85,35 @@ export default function sortiment() {
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Dameklip" />
+            <OverskriftSortiment overskriftsortiment="Bryn" /> 
+          </div>
+          <div>
+            <BookKnap />
+          </div>
+        </div> 
+
+        <div>
+          <img
+            className="Dameklip"
+            src="/images/categories/Klipning.jpg"
+            alt="Dame klip"
+          ></img>
+          <div>
+            <OverskriftSortiment overskriftsortiment="Vipper" /> 
+          </div>
+          <div>
+            <BookKnap />
+          </div>
+        </div> 
+
+        <div>
+          <img
+            className="Dameklip"
+            src="/images/categories/Klipning.jpg"
+            alt="Dame klip"
+          ></img>
+          <div>
+            <OverskriftSortiment overskriftsortiment="Kur" /> 
           </div>
           <div>
             <BookKnap />

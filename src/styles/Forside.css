@@ -2,7 +2,7 @@
 
 .Parent_container {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;  
 }
 
 .Favorit_container {
@@ -23,6 +23,6 @@
 
 .sortiment_wrapper { 
  width: 370px;  
- height: 1000px; 
+ height: 1200px; 
  margin-left: 10px; 
 } 

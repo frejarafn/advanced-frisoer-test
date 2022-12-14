@@ -1,5 +1,5 @@
 
-// alle 
+// Kodet af alle 
 // Dropdown component kodet af Michelle 
 
 import React  from "react";

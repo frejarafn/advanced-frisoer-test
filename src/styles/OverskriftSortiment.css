@@ -1,5 +1,6 @@
 .container {
     background: pink; 
+    width: 175px; 
     font-size: 25px; 
     display: flex; 
     justify-content: center;
