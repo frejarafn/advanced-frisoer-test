@@ -1,5 +1,5 @@
-// Michelle 
-// Kodet som en component- læs mere under perspektivering i rapporten  
+// Michelle
+// Kodet som en component- læs mere under perspektivering i rapporten
 
 import React from "react";
 import "../styles/Favoritter.css";
@@ -12,7 +12,7 @@ export default function Favorit() {
       <div>
         <img
           className="Favorites"
-          src="/images/categories/Klipning.jpg"
+          src="/images/forside-dameklip1.png"
           alt="Dame klip"
         ></img>
         <div>
@@ -26,7 +26,7 @@ export default function Favorit() {
       <div>
         <img
           className="Favorites"
-          src="/images/categories/Klipning.jpg"
+          src="/images/forside-opsætning1.png"
           alt="Dame klip"
         ></img>
         <div>
@@ -38,4 +38,4 @@ export default function Favorit() {
       </div>
     </>
   );
-}; 
+}
