@@ -11,7 +11,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/forside-dameklip1.png"
             alt="Dame klip"
           ></img>
           <div>
@@ -25,7 +25,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Klipning.jpg"
+            src="/images/forside-herreklip1.png"
             alt="Dame klip"
           ></img>
           <div>
@@ -34,12 +34,12 @@ export default function sortiment() {
           <div>
             <BookKnap />
           </div>
-        </div> 
+        </div>
 
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Farvning.jpg"
+            src="/images/forside-farvning1.png"
             alt="Dame klip"
           ></img>
           <div>
@@ -53,7 +53,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Permanent.jpg"
+            src="/images/forside-permanent1.png"
             alt="Dame klip"
           ></img>
           <div>
@@ -67,7 +67,7 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Opsætning.jpg"
+            src="/images/forside-opsætning1.png"
             alt="Dame klip"
           ></img>
           <div>
@@ -81,39 +81,39 @@ export default function sortiment() {
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Bryn.jpg"
+            src="/images/forside-bryn1.png"
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Bryn" /> 
+            <OverskriftSortiment overskriftsortiment="Bryn" />
           </div>
           <div>
             <BookKnap />
           </div>
-        </div> 
+        </div>
 
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Vipper.jpg"
+            src="/images/forside-vipper1.png"
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Vipper" /> 
+            <OverskriftSortiment overskriftsortiment="Vipper" />
           </div>
           <div>
             <BookKnap />
           </div>
-        </div> 
+        </div>
 
         <div>
           <img
             className="Dameklip"
-            src="/images/categories/Kur.jpg"
+            src="/images/forside-kur1.png"
             alt="Dame klip"
           ></img>
           <div>
-            <OverskriftSortiment overskriftsortiment="Kur" /> 
+            <OverskriftSortiment overskriftsortiment="Kur" />
           </div>
           <div>
             <BookKnap />
