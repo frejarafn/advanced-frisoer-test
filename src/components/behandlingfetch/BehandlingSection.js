@@ -30,7 +30,6 @@ export default function BehandlingSection() {
             <br></br>
             <br></br>
             <br></br>
-
         </section>
 
     );
