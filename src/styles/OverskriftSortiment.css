@@ -1,5 +1,9 @@
 .container {
-    background: Black;
+    
+  
+    background-color: rgba(60, 60, 60, 0.5); 
+    
+   
     color: white;  
     width: 175px; 
     font-size: 25px; 
