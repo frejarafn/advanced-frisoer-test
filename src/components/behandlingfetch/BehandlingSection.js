@@ -24,6 +24,12 @@ export default function BehandlingSection() {
             <div className="behandlingoverblik"> {posts.filter(cat => cat.id !== 1).map(post => (
                 <BehandlingPost key={post.id} post={post} />
             ))}</div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
         </section>
 

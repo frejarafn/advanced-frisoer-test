@@ -10,10 +10,10 @@ import Navbar from "../components/Navbar";
 export default function kontakt() {
   const Text = [
     "Er du interesseret eller har et spørgsmål",
-    "så kontakt mig gerne",
+    "så kontakt mig gerne:",
   ];
 
-  const Info = ["Mobil: 51303057", "Email: golden-hairstudio@hotmail.com"];
+  const Info = ["Mobil: 51303057", "Email: golden-hairstudio@hotmail.com", "CVR: 43116266"];
 
   return (
     <>
@@ -31,7 +31,7 @@ export default function kontakt() {
           <Underskrift underskrift="Kontakt salonen" />
         </div>
         <div className="tekst">
-          {Text.map ((tekst, key) => (
+          {Text.map((tekst, key) => (
             <p key={key}>{tekst}</p>
           ))}
         </div>
@@ -43,6 +43,17 @@ export default function kontakt() {
 
         <div className="formular">
           <KontaktForm />
+        </div>
+        <div>
+          <p className="fangsocials">
+            Eller fang mig på de sociale medier her:
+          </p>
+          <br></br>
+
+        </div>
+        <div className="socialsflex">
+          <img className="socials" src="/images/Face.jpg" alt="Facebook"></img>
+          <img className="socials" src="/images/Insta.jpg" alt="Instagram"></img>
         </div>
       </section>
     </>

@@ -1,8 +1,8 @@
-
-// Kodet af alle 
-// Dropdown component kodet af Michelle 
+// alle
+// Dropdown component kodet af Michelle
 
 import React  from "react";
+import React from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
 import Dropdown from "../components/Dropdown";
@@ -15,7 +15,6 @@ import Popup from "reactjs-popup";
 // Registrering af Syncfusion license key
 import { registerLicense } from "@syncfusion/ej2-base";
 
-
 const Booking = () => {
   // Registrering af Syncfusion license key
   registerLicense(
@@ -26,8 +25,7 @@ const Booking = () => {
     <section>
       <Header />
       <Navbar />
-      <Dropdown /> 
-
+      <Dropdown />
 
       {/*Kalender komponent bruges her*/}
       <div className="kalender">
@@ -48,8 +46,8 @@ const Booking = () => {
                 <h4>Din tid er bekræftet!</h4>
               </div>
               <div className="popup-content">
-                Du har booket tid til: den XXX XXX XXX <br></br> Vi glæder os
-                til at se dig i salonen!
+                Du har booket tid til: den XX XX XXXX kl. XXXX <br></br> Vi
+                glæder os til at se dig i salonen!
                 <button
                   className="afslut-btn"
                   onClick={() => {

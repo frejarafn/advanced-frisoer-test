@@ -25,7 +25,9 @@ export default function Opret() {
   };
   return (
     <div className="opret-main">
-      <h2> Golden Hairstudio</h2>
+      <div className="ghs-flex">
+        <h2> Golden Hairstudio</h2>
+      </div>
       <img className="wave" src={wave} alt="" />
       <div className="tilbage">
         <Tilbageknap></Tilbageknap>

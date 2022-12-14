@@ -58,3 +58,8 @@
   position: absolute;
   z-index: 100;
 }
+
+.ghs-flex {
+  display: flex;
+  justify-content: center;
+}

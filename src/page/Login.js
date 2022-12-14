@@ -22,7 +22,9 @@ export default function Login() {
   };
   return (
     <div className="login-main">
+       <div className="ghs-flex">
       <h2> Golden Hairstudio</h2>
+      </div>
       <img className="wave" src={wave} alt="" />
       <div className="login">
         <h3>Login</h3>
