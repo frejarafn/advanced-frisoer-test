@@ -6,8 +6,9 @@ import "../styles/BrugerindholdForm.css";
 export default function BrugerindholdForm() {
   // Denne useState hook bruges til at gemme værdierne fra inputfelterne
 
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username] = useState('');
+  const [password] = useState('');
+  const [nytpassword, setnytPassword] = useState('');
   const [repeatpassword, setrepeatPassword] = useState('');
 
   // Den her funktion vil blive kaldt når knappen trykkes
@@ -24,7 +25,6 @@ export default function BrugerindholdForm() {
         <input
           type="text"
           value={username}
-          onChange={(e) => setUsername(e.target.value)}
           className="input-indhold"
           id="inputnr2"
           placeholder="Brugernavn"
@@ -37,10 +37,22 @@ export default function BrugerindholdForm() {
         <input
           type="password"
           value={password}
-          onChange={(e) => setPassword(e.target.value)}
           className="input-indhold"
           id="inputnr2"
-          placeholder="Kodeord"
+          placeholder=" Nuværende kodeord"
+        />
+        </div>
+      </div>
+
+      <div className="container-skift-indhold">
+        <div className="skiftindhold2">
+        <input
+          type="password"
+          value={nytpassword}
+          onChange={(e) => setnytPassword(e.target.value)}
+          className="input-indhold"
+          id="inputnr2"
+          placeholder="Ny kodeord"
         />
         </div>
       </div>
