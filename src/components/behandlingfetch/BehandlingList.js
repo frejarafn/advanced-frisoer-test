@@ -25,7 +25,14 @@ export default function BehandlingList(props) {
 
             <div className=" "> {posts.map(post => (
                 <BehandlingItem key={post.id} post={post} />
-            ))}</div>
+            ))}
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
 
         </section>
 
