@@ -23,7 +23,7 @@ export default function Forside() {
       {/* header */}
       <HeaderForside />
       <div>
-        <Underskrift underskrift="Velkommen Freja" />
+        <Underskrift underskrift="Velkommen til Golden Hair studios" />
       </div>
 
       {/* overskrift */}
