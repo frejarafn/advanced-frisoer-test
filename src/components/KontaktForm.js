@@ -1,4 +1,5 @@
 // Michelle
+// email form component. 
 import React, { useRef } from "react";
 import "../styles/kontaktform.css";
 import emailjs from "@emailjs/browser";

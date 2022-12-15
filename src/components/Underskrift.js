@@ -1,6 +1,6 @@
 // Michelle 
 
- // Dette er en fil for ændringer af h2 tags på siderne, som kan bruges
+ // ved at bruge props kan du genbruge h2 overskriften. 
 
 import React from "react";
 import '../styles/Underskrift.css';
