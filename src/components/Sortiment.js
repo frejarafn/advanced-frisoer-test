@@ -44,11 +44,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-farvning1.png"
             alt="Dame klip"
           ></img>
+           </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Farvning" />
           </div>
@@ -58,11 +60,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-permanent1.png"
             alt="Dame klip"
           ></img>
+             </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Permanent" />
           </div>
@@ -72,11 +76,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-opsætning1.png"
             alt="Dame klip"
           ></img>
+             </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Opsætning" />
           </div>
@@ -86,11 +92,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-bryn1.png"
             alt="Dame klip"
           ></img>
+            </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Bryn" />
           </div>
@@ -100,11 +108,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-vipper1.png"
             alt="Dame klip"
           ></img>
+           </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Vipper" />
           </div>
@@ -114,11 +124,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking">
           <img
             className="Dameklip"
             src="/images/forside-kur1.png"
             alt="Dame klip"
           ></img>
+           </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Kur" />
           </div>

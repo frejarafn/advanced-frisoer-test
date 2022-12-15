@@ -17,14 +17,17 @@ export default function Forside() {
     "på klipning og 10% på farvebehandling",
   ]; 
 
+
   return (
     // parent container
     <section className="Parent_container">
       {/* header */}
       <HeaderForside />
-      <div>
-        <Underskrift underskrift="Velkommen til Golden Hair studios" />
-      </div>
+
+      <div className="headline">
+        <h1>Velkommen til</h1>
+        <Underskrift underskrift="Golden Hair Studio" />
+      </div> 
 
       {/* overskrift */}
       <div className="Favorit">
