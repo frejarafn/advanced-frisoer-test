@@ -1,5 +1,6 @@
 // Michelle
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "../styles/Sortiment.css";
 import BookKnap from "../components/BookKnap";
 import OverskriftSortiment from "../components/OverskriftSortiment";
@@ -12,11 +13,12 @@ export default function sortiment() {
 
       {/* childrens med img, tekst og button */} 
         <div> 
-          <img
+        <NavLink to="/Booking">  <img
             className="Dameklip"
             src="/images/forside-dameklip1.png"
             alt="Dame klip"
-          ></img>
+          ></img> 
+          </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Dameklip" />
           </div>
@@ -26,11 +28,13 @@ export default function sortiment() {
         </div>
 
         <div>
+        <NavLink to="/Booking"> 
           <img
             className="Dameklip"
             src="/images/forside-herreklip1.png"
             alt="Dame klip"
           ></img>
+           </NavLink>
           <div>
             <OverskriftSortiment overskriftsortiment="Herreklip" />
           </div>
