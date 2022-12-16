@@ -3,37 +3,82 @@
 import React, {useState} from "react";
 import "../styles/Dropdown.css";
 
-const Dropdown = () => {
-  const [open, setOpen] = React.useState(false); 
-
-  const handleOpen = () => {
-    setOpen(!open); 
-  }; 
-
-  const handleMenuOne = () => {
-    setOpen(false); 
-  }; 
-
-  const handleMenuTwo = () => {
-    setOpen(false); 
-  }; 
-
-  const handleMenuthree = () => {
-    setOpen(false); 
-  }; 
-
-  const handleMenufour = () => {
-    setOpen(false); 
-  }; 
-
-  const handleMenufive = () => {
-    setOpen(false); 
-  }; 
 
 
-  return (
-    <section className="dropdown_container">
-      <div className="Search">
+export default function dropdown() {
+
+  return(
+  <>
+  <div className="dropdown_container">
+    <div className="">
+      <label className="">Vælg service</label>
+      <select name="service" className="overblik">
+
+        <option>Vælg service</option>
+
+        <option>Dameklip</option>
+        <option>Herreklip</option>
+      </select>
+
+    </div>
+
+  </div>
+  
+  </>
+
+  )
+}
+ 
+
+
+
+// const Dropdown = () => {
+//   const [open, setOpen] = React.useState(false); 
+
+//   const handleOpen = () => {
+//     setOpen(!open); 
+//   }; 
+
+//   const handleMenuOne = () => {
+//     setOpen(false); 
+//   }; 
+
+//   const handleMenuTwo = () => {
+//     setOpen(false); 
+//   }; 
+
+//   const handleMenuthree = () => {
+//     setOpen(false); 
+//   }; 
+
+//   const handleMenufour = () => {
+//     setOpen(false); 
+//   }; 
+
+//   const handleMenufive = () => {
+//     setOpen(false); 
+//   }; 
+
+
+
+
+
+// return (
+//   <section className="dropdown_container">
+    
+  
+//   </section>
+// );
+// }; 
+
+// export default Dropdown; 
+
+
+
+
+
+
+{/* <div className="Search">
           <button className="Search_Input" onClick={handleOpen}>Vælg service</button>
             {open ? (
          <ul className="menu">
@@ -55,10 +100,4 @@ const Dropdown = () => {
         </ul>
       ) : null}
       {open ? <div>Is Open</div> : <div></div>}
-    </div>
-    
-    </section>
-  );
-}; 
-
-export default Dropdown; 
+    </div> */}
