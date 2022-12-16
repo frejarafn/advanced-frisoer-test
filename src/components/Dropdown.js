@@ -1,84 +1,117 @@
-//Michelle 
+//Michelle
 
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "../styles/Dropdown.css";
 
+const App = () => {
+  const [open, setOpen] = useState(false);
+  const [selectedMenu, setSelectedMenu] = useState("");
 
+  const handleOpen = () => {
+    setOpen(!open);
+  };
 
-export default function dropdown() {
+  const handleMenu = (e) => {
+    setSelectedMenu(e.target.textContent);
+    setOpen(false);
+  };
 
-  return(
-  <>
-  <div className="dropdown_container">
-    <div className="">
-      <label className="">Vælg service</label>
-      <select name="service" className="overblik">
+  return (
+    <section className="dropdown_container">
+      <div className="Search">
+        <label>Vælg Service</label>
+        <button className="Search_Input" onClick={handleOpen}>
+          {selectedMenu}
+        </button>
+        {/* {open ? <div>Is Open</div> : <div></div>} */}
+        {open ? (
+          <ul className="menu">
+            <li className="menu-item">
+              <button onClick={handleMenu}>Dame Klip</button>
+            </li>
+            <li className="menu-item">
+              <button onClick={handleMenu}>Herre Klip</button>
+            </li>
+            <li className="menu-item">
+              <button onClick={handleMenu}>Farvning</button>
+            </li>
+            <li className="menu-item">
+              <button onClick={handleMenu}>Permanent</button>
+            </li>
+            <li className="menu-item">
+              <button onClick={handleMenu}>Hår opsætning</button>
+            </li>
+          </ul>
+        ) : null}
+      </div>
+    </section>
+  );
+};
 
-        <option>Vælg service</option>
+export default App;
 
-        <option>Dameklip</option>
-        <option>Herreklip</option>
-      </select>
+// export default function dropdown() {
 
-    </div>
+//return(
+//<>
+//<div className="dropdown_container">
+// <div className="">
+//  <label className="">Vælg service</label>
+//  <select name="service" className="overblik">
 
-  </div>
-  
-  </>
+// <option>Vælg service</option>
 
-  )
-}
- 
+//  <option>Dameklip</option>
+// <option>Herreklip</option>
+// </select>
 
+// </div>
 
+// </div>
+
+// </>
+
+// )
+// }
 
 // const Dropdown = () => {
-//   const [open, setOpen] = React.useState(false); 
+//   const [open, setOpen] = React.useState(false);
 
 //   const handleOpen = () => {
-//     setOpen(!open); 
-//   }; 
+//     setOpen(!open);
+//   };
 
 //   const handleMenuOne = () => {
-//     setOpen(false); 
-//   }; 
+//     setOpen(false);
+//   };
 
 //   const handleMenuTwo = () => {
-//     setOpen(false); 
-//   }; 
+//     setOpen(false);
+//   };
 
 //   const handleMenuthree = () => {
-//     setOpen(false); 
-//   }; 
+//     setOpen(false);
+//   };
 
 //   const handleMenufour = () => {
-//     setOpen(false); 
-//   }; 
+//     setOpen(false);
+//   };
 
 //   const handleMenufive = () => {
-//     setOpen(false); 
-//   }; 
-
-
-
-
+//     setOpen(false);
+//   };
 
 // return (
 //   <section className="dropdown_container">
-    
-  
+
 //   </section>
 // );
-// }; 
+// };
 
-// export default Dropdown; 
+// export default Dropdown;
 
-
-
-
-
-
-{/* <div className="Search">
+{
+  /* <div className="Search">
           <button className="Search_Input" onClick={handleOpen}>Vælg service</button>
             {open ? (
          <ul className="menu">
@@ -100,4 +133,5 @@ export default function dropdown() {
         </ul>
       ) : null}
       {open ? <div>Is Open</div> : <div></div>}
-    </div> */}
+    </div> */
+}
