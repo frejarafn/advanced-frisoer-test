@@ -1,5 +1,5 @@
 // alle
-// Dropdown component kodet af Michelle
+// Dropdown + DatePicker component kodet af Michelle
 
 import React from "react";
 import "../styles/Booking.css";
