@@ -1,3 +1,5 @@
+// Michelle
+
 import React, { useState } from "react";
 import "../styles/Dropdown.css";
 
@@ -9,6 +11,8 @@ const App = () => {
     setOpen(!open);
   };
 
+
+//   Kodet af Gerda
   const handleMenu = (e) => {
     setSelectedMenu(e.target.textContent);
     setOpen(false);
@@ -21,7 +25,6 @@ const App = () => {
         <button className="Search_Input" onClick={handleOpen}>
           {selectedMenu}
         </button>
-        {/* {open ? <div>Is Open</div> : <div></div>} */}
         {open ? (
           <ul className="menu">
             <li className="menu-item">
@@ -45,3 +48,5 @@ const App = () => {
     </section>
   );
 };
+
+export default App;

@@ -1,4 +1,5 @@
 // Gerda
+// dropdown component kodet af Michelle
 
 import React from "react";
 import "../styles/Booking.css";
