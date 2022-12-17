@@ -4,14 +4,11 @@
 import React from "react"; 
 import {motion} from "framer-motion"; 
 import "../styles/Karussel.css";
-import {useRef, useEffect, useState} from "react"; 
 
-
-export default function karussel(){
+export default function Karussel(){
 
   const image= [1,2,3,4,5].map(n => `/images/KigInd${n}.jpg`); 
-
-
+ 
     return ( 
         <section>
             <motion.div className="carousel">
@@ -20,7 +17,7 @@ export default function karussel(){
                 className="inner-carousel">
                 {image.map ((image, key) => {
                     return(
-                        <motion.div key={key} className="item">
+                        <motion.div key={key} className="item" >
                             <img src ={image} alt="frisør" />
                         </motion.div>
                     )
