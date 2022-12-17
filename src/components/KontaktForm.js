@@ -5,7 +5,7 @@ import "../styles/kontaktform.css";
 import emailjs from "@emailjs/browser";
 
 
-// ved at bruge et hook (useRef) målretter du imod DOM element
+// ved at bruge et hook (useRef) får vi fat i formen. 
 const Contact = () => {
   const form = useRef();
 
@@ -15,6 +15,7 @@ const Contact = () => {
 
 
     // id fra emailjs
+    // form.current henter vores kontakt form nede i return
     emailjs
       .sendForm(
         "service_li2rdfo",
@@ -22,15 +23,6 @@ const Contact = () => {
         form.current,
         "A6VWAVX495uVFtwA0"
       )
-
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
   };
 
   return (

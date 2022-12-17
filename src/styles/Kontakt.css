@@ -40,6 +40,10 @@
     height: 600px; 
 } 
 
+
+
+/* sociale medier ikons stylet af Freja*/
+
 .fangsocials {
 font-size: 20px;
 text-align: center;
@@ -51,7 +55,7 @@ text-align: center;
 }
 
 .socials {
- width: 80%;
+ width: 50%;
  margin-bottom: 7em;
  display: block;
  margin-left: auto;
