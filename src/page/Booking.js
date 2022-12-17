@@ -1,10 +1,9 @@
 // Gerda
 
-
 import React from "react";
 import "../styles/Booking.css";
 import Header from "../components/headers/HeaderBooking.js";
-import Dropdown from "../components/Dropdown";
+import Dropdown from "../components/Dropdown"; 
 import Navbar from "../components/Navbar"; 
 
 
@@ -25,7 +24,7 @@ const Booking = () => {
     <section>
       <Header />
       <Navbar />
-      <Dropdown />
+      <Dropdown/>
     
       {/*Kalender komponent bruges her*/}
       <div className="kalender">
