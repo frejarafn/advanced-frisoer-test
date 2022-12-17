@@ -6,30 +6,7 @@ import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 
-export const monthNames = [
-  "januar",
-  "februar",
-  "marts",
-  "april",
-  "maj",
-  "juni",
-  "juli",
-  "august",
-  "september",
-  "oktober",
-  "november",
-  "december",
-];
 
-export const dayNames = [
-  "man",
-  "tirs",
-  "ons",
-  "tors",
-  "fre",
-  "lør",
-  "søn",
-];
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
