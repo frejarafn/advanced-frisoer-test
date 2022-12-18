@@ -1,7 +1,8 @@
 // Freja
 
-import BehandlingItem from "../../page/BehandlingItem";
+// import BehandlingItem from "../../page/BehandlingItem";
 import { useEffect, useState } from "react";
+import BehandlingItemComponent from "./BehandlingItemComponent";
 
 
 export default function BehandlingList(props) {
@@ -24,7 +25,8 @@ export default function BehandlingList(props) {
             <h2>Behandlinger </h2>
 
             <div className=" "> {posts.map(post => (
-                <BehandlingItem key={post.id} post={post} />
+                <BehandlingItemComponent id={post.id} post={post} />
+
             ))}
             </div>
             <br></br>

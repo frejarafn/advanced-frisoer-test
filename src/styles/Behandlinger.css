@@ -72,8 +72,8 @@ padding-right: 2.5rem;
 .behandlingsection > div > figure {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 2%;
+  justify-content: center;
+  gap: 1em;
   }
 
   .behandlingsection > div > figure > img {

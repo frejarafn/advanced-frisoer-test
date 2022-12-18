@@ -15,7 +15,7 @@ import OmSalonen from "./page/OmSalonen";
 import Opret from "./page/Opret";
 import Profil from "./page/Profil";
 import Aabningstider from "./page/Aabningstider";
-import BehandlingItem from "./page/BehandlingItem";
+// import BehandlingItem from "./page/BehandlingItem";
 import BehandlingerListe from "./page/BehandlingerListe";
 
 
@@ -28,7 +28,7 @@ function App() {
         <Route path="/" element={<Forside />} />
         <Route path="/Forside" element={<Forside />} />
         <Route path="/Behandlinger" element={<Behandlinger />} />
-        <Route path="/BehandlingItem/:ItemId" element={<BehandlingItem />} />
+        {/* <Route path="/BehandlingItem/:ItemId" element={<BehandlingItem />} /> */}
         <Route path="/BehandlingList/:ItemId" element={<BehandlingerListe />} />
 
         <Route path="/Produkter" element={<Produkter />} />
