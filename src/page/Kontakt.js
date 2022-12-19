@@ -68,7 +68,7 @@ export default function kontakt() {
 
           <a href="https://www.facebook.com/profile.php?id=100076355199195">
 
-            <img className="socials" src="/images/Face.jpg" alt="Facebook"></img>
+            <img className="socials" src="/images/face.jpg" alt="Facebook"></img>
           </a>
 
           <a href="https://www.instagram.com/hairstudio.golden/">
