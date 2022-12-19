@@ -18,7 +18,7 @@ export default function Navbar() {
       <nav className="navbar">
         <ul>
           <li>
-            <NavLink className="forside" to="/">
+            <NavLink className="forside" to="/Forside">
               <IoIosHome />
             </NavLink>
           </li>

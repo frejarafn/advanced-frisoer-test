@@ -21,7 +21,7 @@ export default function Opret() {
     await createUserWithEmailAndPassword(auth, email, password);
     updateProfile(auth.currentUser, { displayName: name });
     // Navigate fører til forsiden når man har oprettet en bruger
-    navigate("/");
+    navigate("/Forside");
   };
   return (
     <div className="opret-main">

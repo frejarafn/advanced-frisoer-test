@@ -18,12 +18,12 @@ export default function Login() {
   const handleLogin = async () => {
     signInWithEmailAndPassword(auth, email, password);
     // Navigate fører til forsiden når man har logget ind
-    navigate("/");
+    navigate("/Forside");
   };
   return (
     <div className="login-main">
-       <div className="ghs-flex">
-      <h2> Golden Hairstudio</h2>
+      <div className="ghs-flex">
+        <h2> Golden Hairstudio</h2>
       </div>
       <img className="wave" src={wave} alt="" />
       <div className="login">
