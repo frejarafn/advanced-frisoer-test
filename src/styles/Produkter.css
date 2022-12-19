@@ -1,16 +1,18 @@
 .produkt {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 25px;
-    margin-top: 2em;
-    margin-bottom: 2em;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 15px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .broedtekst {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
 
+.produkter {
+  padding-bottom: 10em;
 }

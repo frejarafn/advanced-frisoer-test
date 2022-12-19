@@ -1,46 +1,48 @@
 /*Nadia*/
 
 /*mode salon intro indhold*/
-.modernesalon-overskrift{
-    text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+.modernesalon-overskrift {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.Mode-intro-tekst{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-bottom: 2rem;
-    font-size: 18px;
+.Mode-intro-tekst {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
 }
-
 
 /*min baggrund indhold*/
-.minbaggrund-overskrift{
-    text-align: center;
-    margin-bottom: 1rem;
+.minbaggrund-overskrift {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-.baggrundstekst{
-    margin-left: 2.5rem;
-    margin-right: 2.3rem;
-    margin-bottom: 2rem;
-    font-size: 18px;
+.baggrundstekst {
+  margin-left: 2.5rem;
+  margin-right: 2.3rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
 }
-
 
 /*kig ind overskrift*/
-.kigind-overskrift{
-    text-align: center;
-    margin-bottom: 1.5rem;
+.kigind-overskrift {
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 /*kig ind billeder*/
-.Kigind-billede{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    border-radius: 15px;
-    margin-bottom: 2rem;
+.Kigind-billede {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.omsalonen {
+  padding-bottom: 10em;
 }

@@ -1,215 +1,218 @@
 /*Nadia*/
 
 /*profil*/
-.profil-main{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    margin-top: 2rem;
-    font-family: Open Sans;
+.profil-main {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  margin-top: 2rem;
+  font-family: Open Sans;
 }
 
-.profil-billede{
-    font-size: 120px;
-    border-style: solid;
-    border-radius: 80px;
-    padding: 1rem;
-    color: rgb(83, 83, 83);
+.profil-billede {
+  font-size: 120px;
+  border-style: solid;
+  border-radius: 80px;
+  padding: 1rem;
+  color: rgb(83, 83, 83);
 }
 
-.profil-tekst{
-    justify-content: center;
-    text-align: center;
-    display: flex;
-    color: #262626;
-    font-family: Open Sans;
-    margin-top: 0.8rem;
-    margin-bottom: 2rem;
-    font-size: 18px;
+.profil-tekst {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: #262626;
+  font-family: Open Sans;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
 }
 
 /*main indhold*/
-.profil-tider{
-    padding-left: 2.5rem;
-    font-family: Open Sans;
+.profil-tider {
+  padding-left: 2.5rem;
+  font-family: Open Sans;
 }
 
-.MinetiderOverskrift{
-    margin-left: -13.4rem;
-    font-family: Open Sans;
-    font-size: 26px;
-
+.profil-tider h2 {
+  padding-right: 1em;
 }
 
-.tidsstekst{
-    margin-top: -1.5rem;
-    font-family: Open Sans;
+.MinetiderOverskrift {
+  margin-left: -13.4rem;
+  font-family: Open Sans;
+  font-size: 26px;
 }
 
-
-.profil-betaling{
-    padding-left: 2.5rem;
-    margin-top: 2.3rem;
-    font-family: Open Sans;
+.tidsstekst {
+  margin-top: -1.5rem;
+  font-family: Open Sans;
 }
 
-.GemteBetalingOverskrift{
-    margin-left: -5.3rem;
-    font-family: Open Sans;
-    font-size: 26px;
+.profil-betaling {
+  padding-left: 2.5rem;
+  margin-top: 2.3rem;
+  font-family: Open Sans;
 }
 
-.betalingstekst{
-    margin-top: -0.3rem;
-    margin-bottom: 2.5rem;
-    font-family: Open Sans;
-    font-size: 18px;
+.GemteBetalingOverskrift {
+  margin-left: -5.3rem;
+  font-family: Open Sans;
+  font-size: 26px;
+  padding-right: 1em;
+}
+
+.betalingstekst {
+  margin-top: -0.3rem;
+  margin-bottom: 2.5rem;
+  font-family: Open Sans;
+  font-size: 18px;
 }
 
 /*ikoner*/
-.slet-ikon1{
-    background-color: #bb9894;
-    color: #ffffff;
-    font-size: 30px;
-    border-radius: 50px;
-    margin-left: 1rem;
-    box-shadow: 0.5px 0.8px 1px grey;
-    margin-bottom: -0.7rem;
+.slet-ikon1 {
+  background-color: #bb9894;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 1rem;
+  box-shadow: 0.5px 0.8px 1px grey;
+  margin-bottom: -0.7rem;
 }
 
-.slet-ikon2{
-    background-color: #bb9894;
-    color: #ffffff;
-    font-size: 30px;
-    border-radius: 50px;
-    margin-left: 6.5rem;
-    box-shadow: 0.5px 0.8px 1px grey; 
-    margin-bottom: -0.5rem;
+.slet-ikon2 {
+  background-color: #bb9894;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 50px;
+  margin-left: 6.5rem;
+  box-shadow: 0.5px 0.8px 1px grey;
+  margin-bottom: -0.5rem;
 }
 
 /*betalingskortknap*/
-.betalingskort-knap{
-    background-color: #bb9894;
-    color: #ffffff;
-    margin-left: 2.5rem;
-    border-radius: 25px;
-    padding-left: 5.1rem;
-    padding-right: 4.8rem;
-    border-style: none;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-size: 16px;
-    font-family: Open Sans semibold;
-    cursor: pointer;
-    box-shadow: 1px 1px 2px grey;
+.betalingskort-knap {
+  background-color: #bb9894;
+  color: #ffffff;
+  margin-left: 2.5rem;
+  border-radius: 25px;
+  padding-left: 5.1rem;
+  padding-right: 4.8rem;
+  border-style: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 16px;
+  font-family: Open Sans semibold;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px grey;
 }
 
 /*indstillinger knap*/
-.indstillinger-knap{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    background-color: #bb9894;
-    margin-left: 2.5rem;
-    margin-right: 12.5rem;
-    border-radius: 25px;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-family: Open Sans;
-    font-size: 17px;
-    cursor: pointer;
-    box-shadow: 1px 1px 2px grey;
+.indstillinger-knap {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: #bb9894;
+  margin-left: 2.5rem;
+  margin-right: 12.5rem;
+  border-radius: 25px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Open Sans;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px grey;
 }
 
 .indstillinger-knap a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: Open Sans semibold;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Open Sans semibold;
 }
 
 /*log ud knap*/
-.logud-knap{
-    text-align: center;
-    justify-content: center;
-    display: flex;
-    background-color: #c6a23d;
-    border-radius: 25px;
-    margin-top: 1.5rem;
-    margin-left: 2.5rem;
-    margin-right: 3rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    font-family: Open Sans semibold;
-    font-size: 17px;
-    cursor: pointer;
-    box-shadow: 1px 1px 2px grey;
+.logud-knap {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: #c6a23d;
+  border-radius: 25px;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  margin-right: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-family: Open Sans semibold;
+  font-size: 17px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px grey;
 }
 
 .logud-knap a {
-    color: #ffffff;
-    text-decoration: none;
-    font-family: Open Sans semibold;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Open Sans semibold;
 }
 
 /*pop up betaling*/
 
-.popup-betaling{
-    margin-right: 3rem;
+.popup-betaling {
+  margin-right: 3rem;
 }
 
-.popup-header-betaling{
-    margin-left: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    font-size: 20px;
+.popup-header-betaling {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 20px;
 }
 
 .popup-indhold-betaling {
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    padding: 5px;
-  }
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  padding: 5px;
+}
 
-  [role="tooltip"].popup-indhold-betaling{
-    width: 200px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
-  }
+[role="tooltip"].popup-indhold-betaling {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
 
-  /*overskrifterne for boksene*/
-  .inputBetalingOverksriftBoks{
-    margin-top: 0.5rem;
-  }
+/*overskrifterne for boksene*/
+.inputBetalingOverksriftBoks {
+  margin-top: 0.5rem;
+}
 
-  /*selve formen - boksene*/
-  .inputbetalingbokspopup{
-    margin-top: 0.5rem;
-    width: 27vh;
-    height: 3.5vh;
-    border-style: solid;
-    border-width: 0.5px;
-  }
+/*selve formen - boksene*/
+.inputbetalingbokspopup {
+  margin-top: 0.5rem;
+  width: 27vh;
+  height: 3.5vh;
+  border-style: solid;
+  border-width: 0.5px;
+}
 
-  .inputbetalingbokspopup2{
-    margin-top: 0.5rem;
-    width: 19vh;
-    height: 3.5vh;
-    border-style: solid;
-    border-width: 0.5px;
-  }
+.inputbetalingbokspopup2 {
+  margin-top: 0.5rem;
+  width: 19vh;
+  height: 3.5vh;
+  border-style: solid;
+  border-width: 0.5px;
+}
 
-  /*pop up betaling knap*/
-  .button-betaling{
-    background-color: #c6a23d;
-    color: #ffffff;
-    border-radius: 25px;
-    font-size: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-left: 2.2rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    border: none;
-  }
+/*pop up betaling knap*/
+.button-betaling {
+  background-color: #c6a23d;
+  color: #ffffff;
+  border-radius: 25px;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-left: 2.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+}

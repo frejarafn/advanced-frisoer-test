@@ -5,7 +5,7 @@ import Header from "../components/headers/HeaderOmSalon";
 import Navbar from "../components/Navbar";
 export default function OmSalonen() {
   return (
-    <section>
+    <section className="omsalonen">
       <Navbar />
       <Header />
       <div className="modesalon-main">
