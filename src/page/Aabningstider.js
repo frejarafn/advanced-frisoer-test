@@ -17,7 +17,6 @@ export default function Aabningstider() {
         <div className="Dage">
           <p>Mandag </p>
           <p>Tirsdag </p>
-          <p>Tirsdag </p>
           <p>Onsdag </p>
           <p>Torsdag </p>
           <p>Fredag </p>
@@ -27,7 +26,6 @@ export default function Aabningstider() {
         <div className="Tidspunkter-lige">
           <p>09:00 - 17:00</p>
           <p>Lukket </p>
-          <p>Tirsdag </p>
           <p>09:00 - 17:00 </p>
           <p>09:00 - 17:00</p>
           <p>09:00 - 17:00 </p>
