@@ -134,6 +134,11 @@ export default function Profil() {
       </div>
 
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </section>
   );
 }

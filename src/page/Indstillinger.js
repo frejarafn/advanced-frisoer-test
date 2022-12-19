@@ -6,7 +6,7 @@ import BrugerindholdForm from "../components/BrugerindholdForm.js";
 import SwitchKnap from "../components/SwitchKnap";
 import Navbar from "../components/Navbar";
 export default function Indstillinger() {
-  
+
   return (
     <section>
       <Navbar />
@@ -23,7 +23,7 @@ export default function Indstillinger() {
         </div>
       </div>
 
-      <br></br> 
+      <br></br>
 
       {/*Form - Overskrift*/}
       <div className="form-brugerindhold">
@@ -32,6 +32,13 @@ export default function Indstillinger() {
 
       {/*Form indholdsbokse + knap*/}
       <BrugerindholdForm></BrugerindholdForm>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </section>
+
   );
 }
